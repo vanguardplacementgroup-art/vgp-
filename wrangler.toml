@@ -1,0 +1,7 @@
+# Cloudflare Workers — static assets only (no server code needed)
+name = "vanguard-placement-group"
+compatibility_date = "2025-09-01"
+
+[assets]
+directory = "./public"
+not_found_handling = "404-page"

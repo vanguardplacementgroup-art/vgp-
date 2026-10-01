@@ -1,0 +1,2552 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vanguard Placement Group — Raw Talent In. Big Opportunities Out.</title>
+<meta name="description" content="Send your reel or resume. We shortlist it straight to the right desks. Helping independent talent secure agency representation — 48h average response.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vanguard Placement Group — Raw Talent In. Big Opportunities Out.">
+<meta property="og:description" content="Send your reel or resume. We shortlist it straight to the right desks.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23003087'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-weight='700' font-size='34' fill='white' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>if(window.tailwind)tailwind.config={theme:{extend:{colors:{vanguard:'#003087',vanguardLift:'#2b6cff'}}}};</script>
+<style>
+/* ============================================================
+   VANGUARD PLACEMENT GROUP — single page
+   Palette: #003087 primary blue · black · white space
+   ============================================================ */
+:root{
+  --blue:#003087;
+  --blue-lift:#2b6cff;
+  --blue-soft:#8fb4ff;
+  --bg:#05070d;
+  --bg-2:#080b14;
+  --panel:#0c1020;
+  --panel-2:#0f1426;
+  --ink:#ffffff;
+  --muted:#b9c3d6;
+  --muted-2:#939db2;
+  --line:rgba(255,255,255,.13);
+  --line-2:rgba(255,255,255,.26);
+  --logo-ink:#ffffff;
+  --logo-blue:#5d94ff;
+  --card-shadow:0 30px 70px rgba(0,0,0,.55);
+  --radius:18px;
+  --maxw:1220px;
+}
+html[data-theme="light"]{
+  --bg:#ffffff;
+  --bg-2:#f5f7fb;
+  --panel:#ffffff;
+  --panel-2:#f3f6fc;
+  --ink:#05070d;
+  --muted:#394255;
+  --muted-2:#5c6679;
+  --line:rgba(5,7,13,.14);
+  --line-2:rgba(5,7,13,.24);
+  --logo-ink:#05070d;
+  --logo-blue:#003087;
+  --blue-soft:#003087;
+  --card-shadow:0 26px 60px rgba(9,20,50,.10);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  background:var(--bg);color:var(--ink);
+  line-height:1.62;font-size:17px;font-weight:450;overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  transition:background .4s ease,color .4s ease;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button,input,textarea,select{font:inherit;color:inherit}
+::selection{background:var(--blue);color:#fff}
+.container{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 28px}
+
+/* --- film-reel background pattern --- */
+.reel-bg{
+  position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='0.045'%3E%3Ccircle cx='60' cy='60' r='34'/%3E%3Ccircle cx='60' cy='60' r='9'/%3E%3Ccircle cx='60' cy='30' r='7'/%3E%3Ccircle cx='60' cy='90' r='7'/%3E%3Ccircle cx='30' cy='60' r='7'/%3E%3Ccircle cx='90' cy='60' r='7'/%3E%3Ccircle cx='39' cy='39' r='7'/%3E%3Ccircle cx='81' cy='81' r='7'/%3E%3Ccircle cx='81' cy='39' r='7'/%3E%3Ccircle cx='39' cy='81' r='7'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:190px 190px;
+}
+html[data-theme="light"] .reel-bg{opacity:.55;filter:invert(1)}
+.grain{
+  position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.045;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+/* perforation strip (film sprockets) */
+.perf{height:34px;width:100%;background:
+  radial-gradient(circle at 17px 17px, var(--bg) 0 6px, transparent 6.5px) repeat-x;
+  background-size:34px 34px;border-top:2px solid var(--line);border-bottom:2px solid var(--line);
+  background-color:rgba(0,48,135,.42);
+}
+main,header,footer,nav{position:relative;z-index:2}
+
+/* --- typography --- */
+h1,h2,h3,h4,.display{font-family:'Playfair Display',Georgia,serif;font-weight:800;line-height:1.04;letter-spacing:-.028em}
+em{font-style:italic;font-weight:800;color:var(--blue-soft)}
+html[data-theme="light"] em{color:var(--blue)}
+.sec-head{margin-bottom:56px;max-width:720px}
+.sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.sec-label{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:'Inter',sans-serif;font-size:12px;font-weight:900;letter-spacing:.26em;
+  text-transform:uppercase;color:var(--blue-soft);margin-bottom:16px;
+}
+.sec-label::before{content:"";width:34px;height:4px;border-radius:2px;background:linear-gradient(90deg,#003087,#2b6cff)}
+.sec-head.center .sec-label::after{content:"";width:34px;height:4px;border-radius:2px;background:linear-gradient(90deg,#2b6cff,#003087)}
+.sec-title{font-size:clamp(2.4rem,5.4vw,4.2rem);font-weight:800;margin-bottom:18px}
+.sec-sub{color:var(--muted);font-size:1.08rem;font-weight:500;max-width:640px}
+.sec-head.center .sec-sub{margin:0 auto}
+
+/* --- buttons --- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:18px 34px;border-radius:999px;font-weight:800;font-size:15px;letter-spacing:.04em;
+  border:2px solid transparent;cursor:pointer;background:none;
+  transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s,background .25s,border-color .25s,color .25s;
+}
+.btn-primary{
+  background:linear-gradient(135deg,#003087 0%,#0a49c4 55%,#2b6cff 100%);
+  color:#fff;box-shadow:0 16px 40px rgba(0,48,135,.55);
+}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 22px 56px rgba(43,108,255,.55)}
+.btn-ghost{border-color:var(--line-2);border-width:2px;color:var(--ink);backdrop-filter:blur(6px)}
+.btn-ghost:hover{border-color:var(--blue-lift);color:var(--blue-soft);transform:translateY(-3px);box-shadow:0 14px 34px rgba(43,108,255,.22)}
+.btn-white{background:#fff;color:#003087;font-weight:900;box-shadow:0 16px 40px rgba(0,0,0,.32)}
+.btn-white:hover{transform:translateY(-3px)}
+.btn-sm{padding:13px 24px;font-size:13.5px}
+
+/* --- nav --- */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:16px 0;transition:all .38s ease;
+  border-bottom:1px solid transparent;
+}
+.nav.scrolled{
+  background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(18px) saturate(140%);
+  border-bottom-color:var(--line);padding:10px 0;
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:flex;align-items:center;gap:13px}
+.logo svg{width:52px;height:52px;flex:none}
+.logo-txt{display:flex;flex-direction:column;line-height:1.12}
+.logo-txt b{
+  font-family:'Playfair Display',serif;font-size:18.5px;font-weight:800;letter-spacing:-.01em;color:var(--ink);
+}
+.logo-txt small{
+  font-size:9.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--muted-2);font-weight:800;margin-top:3px;
+}
+.nav-links{display:flex;align-items:center;gap:6px}
+.nav-links a{
+  position:relative;padding:10px 16px;border-radius:999px;font-size:14.5px;font-weight:700;color:var(--muted);
+  transition:color .25s,background .25s;
+}
+.nav-links a:hover,.nav-links a.active{color:var(--ink);background:color-mix(in srgb,var(--blue) 22%,transparent)}
+.nav-right{display:flex;align-items:center;gap:12px}
+.theme-btn{
+  width:40px;height:40px;border-radius:999px;border:1px solid var(--line-2);display:grid;place-items:center;
+  cursor:pointer;background:transparent;transition:.25s;font-size:15px;
+}
+.theme-btn:hover{border-color:var(--blue-lift);color:var(--blue-soft)}
+.menu-btn{display:none;width:44px;height:44px;border-radius:12px;border:1px solid var(--line-2);background:transparent;cursor:pointer}
+.menu-btn span,.menu-btn span::before,.menu-btn span::after{
+  display:block;width:18px;height:1.6px;background:var(--ink);margin:0 auto;position:relative;transition:.3s;
+}
+.menu-btn span::before{content:"";position:absolute;top:-6px}
+.menu-btn span::after{content:"";position:absolute;top:6px}
+.mobile-menu{
+  position:fixed;inset:0;z-index:99;background:var(--bg);display:none;flex-direction:column;
+  align-items:center;justify-content:center;gap:10px;
+}
+.mobile-menu.open{display:flex}
+.mobile-menu a{font-family:'Playfair Display',serif;font-size:30px;padding:10px}
+
+/* --- hero --- */
+.hero{
+  position:relative;min-height:100svh;display:flex;align-items:center;
+  padding:150px 0 190px;overflow:hidden;
+}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;opacity:.30;filter:grayscale(.45) contrast(1.05)}
+html[data-theme="light"] .hero-bg img{opacity:.14}
+.hero-overlay{
+  position:absolute;inset:0;z-index:1;
+  background:
+    radial-gradient(900px 520px at 16% 26%, rgba(0,48,135,.55), transparent 65%),
+    radial-gradient(700px 520px at 88% 76%, rgba(43,108,255,.24), transparent 60%),
+    linear-gradient(180deg, color-mix(in srgb,var(--bg) 72%,transparent) 0%, color-mix(in srgb,var(--bg) 82%,transparent) 42%, var(--bg) 100%);
+}
+.hero-edge{
+  position:absolute;right:22px;top:50%;transform:translateY(-50%) rotate(90deg);transform-origin:right center;
+  font-size:11px;font-weight:800;letter-spacing:.44em;text-transform:uppercase;color:var(--muted-2);z-index:3;white-space:nowrap;
+}
+.hero-inner{position:relative;z-index:4;max-width:900px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;padding:9px 20px;border-radius:999px;
+  border:2px solid color-mix(in srgb,var(--blue-lift) 55%,transparent);
+  background:color-mix(in srgb,var(--blue) 26%,transparent);
+  font-size:12.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-soft);margin-bottom:30px;
+}
+html[data-theme="light"] .eyebrow{color:var(--blue);background:rgba(0,48,135,.07)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--blue-lift);box-shadow:0 0 0 0 rgba(43,108,255,.7);animation:pulse 2.2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 12px rgba(43,108,255,0)}100%{box-shadow:0 0 0 0 rgba(43,108,255,0)}}
+.hero-title{font-size:clamp(3.2rem,9vw,7.2rem);font-weight:800;line-height:.93;letter-spacing:-.035em;margin-bottom:24px}
+.hero-title .line{display:block;overflow:hidden}
+.hero-title .w{display:inline-block;transform:translateY(105%);animation:wordUp .95s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:var(--wd,0s)}
+@keyframes wordUp{to{transform:translateY(0)}}
+.hero-title em{
+  background:linear-gradient(100deg,#8fb4ff 0%,#2b6cff 50%,#003087 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+html[data-theme="light"] .hero-title em{background:linear-gradient(100deg,#003087,#2b6cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-rot{font-size:clamp(1.1rem,2.3vw,1.55rem);font-weight:700;letter-spacing:-.01em;color:var(--blue-soft);min-height:1.6em;margin-bottom:16px}
+html[data-theme="light"] .hero-rot{color:var(--blue)}
+.cursor{display:inline-block;width:2px;height:1.05em;background:currentColor;vertical-align:-3px;margin-left:3px;animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.hero .sub{font-size:1.22rem;font-weight:500;color:var(--muted);max-width:620px;margin-bottom:36px}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.hero-tag{margin-top:28px;font-size:17px;font-weight:600;color:var(--muted);font-style:italic;font-family:'Playfair Display',serif}
+.rise{opacity:0;transform:translateY(24px);animation:rise .9s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:var(--d,0s)}
+@keyframes rise{to{opacity:1;transform:none}}
+
+/* stats bar */
+.hero-stats-bar{position:absolute;left:0;right:0;bottom:0;z-index:5;border-top:1px solid var(--line);background:color-mix(in srgb,var(--bg) 72%,transparent);backdrop-filter:blur(14px)}
+.hs-inner{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:30px 18px;text-align:center;border-right:1px solid var(--line)}
+.stat:last-child{border-right:none}
+.stat b{display:block;font-family:'Playfair Display',serif;font-size:clamp(2rem,3.8vw,3rem);font-weight:800;letter-spacing:-.03em;color:var(--ink)}
+.stat b i{font-style:normal;color:var(--blue-soft);font-size:.62em;margin-left:2px}
+html[data-theme="light"] .stat b i{color:var(--blue)}
+.stat span{display:block;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-2);margin-top:8px}
+
+/* --- marquee --- */
+.logos-strip{padding:48px 0 30px;border-bottom:1px solid var(--line)}
+.logos-title{text-align:center;font-size:12px;font-weight:900;letter-spacing:.3em;text-transform:uppercase;color:var(--muted-2);margin-bottom:28px}
+.marquee{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.marquee-track{display:flex;gap:64px;width:max-content;animation:scroll 34s linear infinite}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.client-logo{font-size:22px;font-weight:700;color:var(--muted-2);white-space:nowrap;opacity:.82;transition:.3s}
+.client-logo:hover{opacity:1;color:var(--blue-soft)}
+.lg-serif{font-family:'Playfair Display',serif;font-style:italic}
+.lg-bold{font-weight:800;letter-spacing:.08em}
+.lg-wide{font-weight:500;letter-spacing:.3em;font-size:15px}
+.lg-mono{font-family:ui-monospace,Menlo,monospace}
+
+/* --- sections --- */
+section{padding:110px 0}
+.soft{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+
+/* talent cards */
+.talent-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.talent-card{
+  position:relative;border-radius:var(--radius);overflow:hidden;border:2px solid var(--line);
+  background:var(--panel);box-shadow:var(--card-shadow);transition:transform .45s cubic-bezier(.2,.8,.2,1),border-color .3s;
+}
+.talent-card:hover{transform:translateY(-8px);border-color:color-mix(in srgb,var(--blue-lift) 55%,transparent)}
+.talent-card .tc-media{aspect-ratio:4/5;overflow:hidden;background:#0a0f1c}
+.talent-card img{width:100%;height:100%;object-fit:cover;filter:grayscale(.3);transition:transform .8s cubic-bezier(.2,.8,.2,1),filter .5s}
+.talent-card:hover img{transform:scale(1.06);filter:grayscale(0)}
+.tc-body{padding:20px 20px 24px}
+.tc-body h3{font-size:1.45rem;font-weight:800;margin-bottom:5px}
+.tc-body p{font-size:14.5px;font-weight:500;color:var(--muted);}
+.tc-tag{
+  position:absolute;top:14px;left:14px;padding:7px 15px;border-radius:999px;font-size:11px;font-weight:900;
+  letter-spacing:.14em;text-transform:uppercase;background:rgba(5,7,13,.78);backdrop-filter:blur(8px);
+  border:2px solid var(--line-2);color:#fff;
+}
+.tc-tag.booked{background:linear-gradient(135deg,#003087,#2b6cff);border-color:transparent}
+.tc-tag.signed{background:#fff;color:#003087;border-color:transparent}
+.tc-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:16px}
+.tc-watch{
+  display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:999px;font-size:12.5px;font-weight:800;
+  letter-spacing:.04em;border:2px solid var(--line-2);cursor:pointer;background:transparent;transition:.25s;
+}
+.tc-watch:hover{border-color:var(--blue-lift);color:var(--blue-soft);transform:translateY(-2px)}
+.tc-role{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2)}
+.hidden-card{display:none}
+.hidden-card.show{display:block}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px}
+.feature{
+  padding:38px 32px;border-radius:var(--radius);border:2px solid var(--line);background:var(--panel);
+  transition:transform .4s,border-color .3s,background .3s;
+}
+.feature:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--blue-lift) 45%,transparent);background:var(--panel-2)}
+.f-check{
+  width:54px;height:54px;border-radius:14px;display:grid;place-items:center;margin-bottom:20px;font-size:24px;font-weight:900;
+  background:linear-gradient(135deg,#003087,#2b6cff);color:#fff;box-shadow:0 14px 32px rgba(0,48,135,.55);
+}
+.feature h3{font-size:1.38rem;font-weight:800;margin-bottom:10px}
+.feature p{color:var(--muted);font-size:15.2px;font-weight:450}
+
+/* testimonials */
+.t-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.t-card{
+  padding:38px 32px;border-radius:var(--radius);border:2px solid var(--line);background:var(--panel);
+  position:relative;transition:transform .4s,border-color .3s;
+}
+.t-card::before{
+  content:"\201C";position:absolute;top:6px;right:22px;font-family:'Playfair Display',serif;font-size:96px;
+  color:color-mix(in srgb,var(--blue-lift) 22%,transparent);line-height:1;
+}
+.t-card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--blue-lift) 45%,transparent)}
+.t-stars{color:#ffc45c;letter-spacing:.2em;margin-bottom:18px;font-size:16px}
+.t-card blockquote{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600;line-height:1.5;color:var(--ink);margin-bottom:22px}
+.t-who{display:flex;align-items:center;gap:12px}
+.t-avatar{
+  width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700;
+  background:linear-gradient(135deg,#003087,#2b6cff);color:#fff;flex:none;
+}
+.t-who b{display:block;font-family:'Inter',sans-serif;font-size:15px;font-weight:800}
+.t-who span span{font-size:12.5px;font-weight:600;letter-spacing:.04em;color:var(--muted-2)}
+
+/* faq */
+.faq-list{max-width:820px;margin:0 auto;display:grid;gap:12px}
+.faq-item{border:2px solid var(--line);border-radius:16px;background:var(--panel);overflow:hidden;transition:border-color .3s}
+.faq-item.open{border-color:color-mix(in srgb,var(--blue-lift) 50%,transparent)}
+.faq-q{
+  width:100%;display:flex;align-items:center;justify-content:space-between;gap:18px;text-align:left;
+  padding:24px 28px;background:none;border:none;cursor:pointer;font-size:19px;font-weight:800;
+  letter-spacing:-.02em;font-family:'Playfair Display',serif;
+}
+.faq-icon{font-size:26px;font-weight:700;color:var(--blue-soft);transition:transform .3s;flex:none;line-height:1}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-a p{padding:0 28px 26px;color:var(--muted);font-size:15.5px;font-weight:450}
+
+/* cta card */
+.cta-card{
+  border-radius:26px;padding:72px 48px;text-align:center;position:relative;overflow:hidden;
+  background:linear-gradient(135deg,#00214f 0%,#003087 45%,#0a49c4 100%);
+  box-shadow:0 40px 90px rgba(0,48,135,.45);
+}
+.cta-card::after{
+  content:"";position:absolute;inset:0;opacity:.20;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cg fill='none' stroke='white' stroke-opacity='0.5'%3E%3Ccircle cx='60' cy='60' r='34'/%3E%3Ccircle cx='60' cy='60' r='9'/%3E%3Ccircle cx='60' cy='30' r='7'/%3E%3Ccircle cx='60' cy='90' r='7'/%3E%3Ccircle cx='30' cy='60' r='7'/%3E%3Ccircle cx='90' cy='60' r='7'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:160px 160px;
+}
+.cta-card>*{position:relative;z-index:2}
+.cta-card h2{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800;letter-spacing:-.03em;color:#fff;margin-bottom:18px}
+.cta-card h2 em{color:#bcd4ff;-webkit-text-fill-color:#bcd4ff}
+.cta-card p{color:rgba(255,255,255,.88);font-size:1.1rem;font-weight:500;max-width:620px;margin:0 auto 32px}
+.cta-row-w{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.cta-mail{margin-top:28px;font-size:15px;font-weight:600;color:rgba(255,255,255,.85)}
+.cta-mail b{color:#fff;font-weight:900}
+
+/* footer */
+.footer{border-top:1px solid var(--line);background:var(--bg-2);padding:84px 0 34px}
+.footer-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:60px;margin-bottom:56px}
+.footer-brand p{color:var(--muted);font-size:15.4px;font-weight:450;margin:20px 0 24px;max-width:440px}
+.f-contact{display:grid;gap:9px;font-size:15px;font-weight:600;color:var(--muted)}
+.f-contact a:hover{color:var(--blue-soft)}
+.form-card{
+  border:2px solid var(--line);border-radius:20px;background:var(--panel);padding:36px;box-shadow:var(--card-shadow);
+}
+.form-card h4{font-size:1.7rem;font-weight:800;margin-bottom:7px}
+.form-card>p{color:var(--muted);font-size:14px;margin-bottom:22px}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.field{display:block;margin-bottom:14px}
+.field span{display:block;font-size:11.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-2);margin-bottom:8px}
+.field input,.field textarea,.field select{
+  width:100%;padding:14px 16px;border-radius:12px;border:2px solid var(--line-2);font-weight:500;
+  background:color-mix(in srgb,var(--bg) 60%,transparent);color:var(--ink);font-size:15px;transition:.25s;
+}
+.field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--blue-lift);box-shadow:0 0 0 3px rgba(43,108,255,.18)}
+.field textarea{min-height:104px;resize:vertical}
+.form-note{font-size:12.5px;color:var(--muted-2);margin-top:12px;text-align:center}
+.footer-bottom{
+  border-top:2px solid var(--line);padding-top:28px;display:flex;justify-content:space-between;
+  flex-wrap:wrap;gap:12px;font-size:13.5px;font-weight:600;color:var(--muted-2);
+}
+
+/* floating */
+.to-top{
+  position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:50%;border:1px solid var(--line-2);
+  background:var(--panel);color:var(--ink);cursor:pointer;z-index:80;opacity:0;pointer-events:none;transition:.3s;
+}
+.to-top.show{opacity:1;pointer-events:auto}
+.to-top:hover{border-color:var(--blue-lift);color:var(--blue-soft);transform:translateY(-3px)}
+.mail-fab{
+  position:fixed;right:22px;bottom:80px;width:46px;height:46px;border-radius:50%;z-index:80;
+  display:grid;place-items:center;background:linear-gradient(135deg,#003087,#2b6cff);color:#fff;
+  box-shadow:0 14px 34px rgba(0,48,135,.5);transition:.3s;
+}
+.mail-fab:hover{transform:translateY(-3px) scale(1.05)}
+.mail-fab svg{width:21px;height:21px}
+
+/* reveal on scroll */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.reveal.in{opacity:1;transform:none}
+
+/* responsive */
+@media(max-width:1000px){
+  .nav-links{display:none}
+  .menu-btn{display:block}
+  .footer-grid{grid-template-columns:1fr;gap:38px}
+  .hs-inner{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(2){border-right:none}
+  .stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--line)}
+  .hero{padding:130px 0 240px}
+}
+@media(max-width:620px){
+  .container{padding:0 20px}
+  section{padding:76px 0}
+  .cta-card{padding:52px 24px}
+  .f-row{grid-template-columns:1fr}
+  .hero-edge{display:none}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rise,.reveal{opacity:1;transform:none}.hero-title .w{transform:none}}
+
+/* ============================================================
+   V3 — multi-page components, hype layer, chatbot
+   ============================================================ */
+
+/* --- urgency bar --- */
+.urgency{
+  position:fixed;top:0;left:0;right:0;z-index:120;height:44px;display:flex;align-items:center;justify-content:center;
+  gap:16px;padding:0 18px;font-size:13.5px;font-weight:800;letter-spacing:.04em;color:#fff;text-align:center;
+  background:linear-gradient(90deg,#00214f,#003087 35%,#2b6cff 100%);box-shadow:0 2px 20px rgba(0,48,135,.5);
+}
+.urgency b{font-weight:900}
+.urgency .cd{
+  font-family:ui-monospace,Menlo,monospace;background:rgba(255,255,255,.16);padding:4px 10px;border-radius:7px;
+  letter-spacing:.06em;border:1px solid rgba(255,255,255,.3);
+}
+.urgency a{text-decoration:underline;text-underline-offset:3px}
+.urgency .ux{position:absolute;right:12px;background:none;border:none;color:#fff;opacity:.7;cursor:pointer;font-size:18px}
+.urgency.hide{display:none}
+body{padding-top:0}
+.nav{top:44px}
+.nav.no-urgency{top:0}
+
+/* --- page hero (inner pages) --- */
+.page-hero{position:relative;padding:190px 0 76px;overflow:hidden;border-bottom:2px solid var(--line)}
+.page-hero::before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(900px 420px at 18% 10%, rgba(0,48,135,.55), transparent 62%),
+             radial-gradient(640px 420px at 92% 90%, rgba(43,108,255,.2), transparent 60%);
+}
+.page-hero>*{position:relative;z-index:2}
+.crumb{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--muted-2);margin-bottom:18px}
+.crumb a:hover{color:var(--blue-soft)}
+.page-hero h1{font-size:clamp(2.6rem,6.4vw,5rem);font-weight:800;letter-spacing:-.035em;margin-bottom:16px}
+.page-hero p.lead{font-size:1.18rem;font-weight:500;color:var(--muted);max-width:660px}
+
+/* --- filters --- */
+.filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:40px}
+.filters button{
+  padding:11px 22px;border-radius:999px;border:2px solid var(--line-2);background:transparent;cursor:pointer;
+  font-size:13.5px;font-weight:800;letter-spacing:.04em;transition:.25s;color:var(--muted);
+}
+.filters button:hover{border-color:var(--blue-lift);color:var(--ink)}
+.filters button.active{background:linear-gradient(135deg,#003087,#2b6cff);border-color:transparent;color:#fff;box-shadow:0 12px 30px rgba(0,48,135,.45)}
+.is-hidden{display:none!important}
+
+/* --- locked / blurred teaser --- */
+.locked{position:relative;border:2px dashed color-mix(in srgb,var(--blue-lift) 55%,transparent);border-radius:var(--radius);overflow:hidden;background:var(--panel)}
+.locked .blurred{filter:blur(9px) saturate(.7);pointer-events:none;user-select:none;padding:30px}
+.locked .lock-ui{
+  position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:30px;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--bg) 55%,transparent),color-mix(in srgb,var(--bg) 88%,transparent));
+}
+.lock-ui h3{font-size:1.5rem;margin-bottom:10px}
+.lock-ui p{color:var(--muted);font-size:14.5px;max-width:420px;margin:0 auto 18px}
+
+/* --- magnet / quiz band --- */
+.magnet{
+  border-radius:24px;padding:46px 40px;border:2px solid color-mix(in srgb,var(--blue-lift) 42%,transparent);
+  background:linear-gradient(135deg,color-mix(in srgb,var(--blue) 30%,var(--panel)),var(--panel));
+  display:grid;grid-template-columns:1.3fr .9fr;gap:34px;align-items:center;box-shadow:var(--card-shadow);
+}
+.magnet h3{font-size:clamp(1.6rem,3vw,2.3rem);margin-bottom:12px}
+.magnet p{color:var(--muted);font-weight:500;margin-bottom:20px}
+.magnet .mg-side{text-align:center}
+.mg-num{font-family:'Playfair Display',serif;font-size:4.4rem;font-weight:800;line-height:1;background:linear-gradient(135deg,#8fb4ff,#2b6cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+@media(max-width:800px){.magnet{grid-template-columns:1fr;padding:34px 24px}}
+
+/* --- steps / timeline --- */
+.steps{display:grid;gap:18px;counter-reset:s}
+.step{
+  display:grid;grid-template-columns:72px 1fr;gap:22px;align-items:start;padding:30px;border:2px solid var(--line);
+  border-radius:var(--radius);background:var(--panel);transition:.35s;
+}
+.step:hover{border-color:color-mix(in srgb,var(--blue-lift) 50%,transparent);transform:translateX(6px)}
+.step b{
+  font-family:'Playfair Display',serif;font-size:2.4rem;font-weight:800;display:grid;place-items:center;height:72px;
+  border-radius:16px;background:linear-gradient(135deg,#003087,#2b6cff);color:#fff;
+}
+.step h3{font-size:1.4rem;margin-bottom:8px}
+.step p{color:var(--muted);font-weight:450}
+@media(max-width:620px){.step{grid-template-columns:1fr;gap:14px}.step b{width:64px;height:64px;font-size:2rem}}
+
+/* --- profile page --- */
+.pf-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:50px;align-items:start}
+.pf-media{position:relative;border-radius:22px;overflow:hidden;border:2px solid var(--line);box-shadow:var(--card-shadow)}
+.pf-media img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.pf-play{
+  position:absolute;left:50%;bottom:24px;transform:translateX(-50%);display:inline-flex;align-items:center;gap:10px;
+  padding:14px 26px;border-radius:999px;border:none;cursor:pointer;font-weight:800;font-size:14px;
+  background:#fff;color:#003087;box-shadow:0 18px 40px rgba(0,0,0,.4);transition:.25s;
+}
+.pf-play:hover{transform:translateX(-50%) translateY(-3px)}
+.pf-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+.pf-gallery img{border-radius:12px;aspect-ratio:1;object-fit:cover;border:2px solid var(--line);cursor:pointer;transition:.3s}
+.pf-gallery img:hover{border-color:var(--blue-lift);transform:translateY(-3px)}
+.pf-head h1{font-size:clamp(2.4rem,5vw,3.8rem);margin-bottom:8px}
+.pf-sub{font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-soft);margin-bottom:20px}
+.pf-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:26px 0}
+.pf-stats div{border:2px solid var(--line);border-radius:14px;padding:18px 14px;text-align:center;background:var(--panel)}
+.pf-stats b{display:block;font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:800}
+.pf-stats span{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2)}
+.pf-table{width:100%;border-collapse:collapse;margin:8px 0 26px}
+.pf-table td{padding:13px 0;border-bottom:1px solid var(--line);font-size:14.6px;vertical-align:top}
+.pf-table td:first-child{width:38%;font-weight:800;color:var(--muted-2);font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding-right:14px}
+.pf-credits{list-style:none;display:grid;gap:12px;margin-bottom:28px}
+.pf-credits li{display:grid;grid-template-columns:94px 1fr;gap:16px;padding-bottom:12px;border-bottom:1px solid var(--line);font-size:15px}
+.pf-credits li b{font-weight:800;color:var(--blue-soft);font-size:13px;letter-spacing:.08em}
+.desk-note{
+  border-left:5px solid var(--blue-lift);padding:20px 24px;border-radius:0 14px 14px 0;background:var(--panel);
+  font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:600;margin-bottom:28px;
+}
+.desk-note span{display:block;margin-top:10px;font-family:'Inter',sans-serif;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-2)}
+@media(max-width:900px){.pf-grid{grid-template-columns:1fr;gap:34px}}
+
+/* --- story cards --- */
+.story{display:grid;grid-template-columns:.8fr 1.2fr;gap:34px;align-items:center;padding:30px;border:2px solid var(--line);border-radius:22px;background:var(--panel);margin-bottom:22px}
+.story img{border-radius:16px;aspect-ratio:4/3;object-fit:cover;width:100%}
+.story h3{font-size:1.7rem;margin-bottom:10px}
+.story p{color:var(--muted);font-weight:450;margin-bottom:14px}
+.story .t-stars{margin-bottom:12px}
+@media(max-width:800px){.story{grid-template-columns:1fr}}
+
+/* --- multi-step form --- */
+.msf-bar{display:flex;gap:8px;margin-bottom:26px}
+.msf-bar i{flex:1;height:6px;border-radius:4px;background:var(--line-2);transition:.4s}
+.msf-bar i.on{background:linear-gradient(90deg,#003087,#2b6cff)}
+.msf-step{display:none}
+.msf-step.on{display:block;animation:rise .5s ease forwards}
+.msf-nav{display:flex;gap:12px;margin-top:20px}
+
+/* --- sticky mobile cta --- */
+.sticky-cta{
+  position:fixed;left:0;right:0;bottom:0;z-index:85;display:none;gap:10px;padding:12px 16px;
+  background:color-mix(in srgb,var(--bg) 94%,transparent);border-top:2px solid var(--line);backdrop-filter:blur(14px);
+}
+.sticky-cta .btn{flex:1;padding:14px 10px;font-size:13.5px}
+@media(max-width:700px){.sticky-cta{display:flex}.to-top{bottom:84px}.mail-fab{bottom:142px}.chat-fab{bottom:84px!important}}
+
+/* --- toasts --- */
+.toast-wrap{position:fixed;left:18px;bottom:18px;z-index:90;display:grid;gap:10px;max-width:330px}
+.toast{
+  display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:14px;border:2px solid var(--line);
+  background:var(--panel);box-shadow:var(--card-shadow);transform:translateX(-120%);animation:tIn .5s forwards;
+}
+.toast.out{animation:tOut .4s forwards}
+@keyframes tIn{to{transform:none}}
+@keyframes tOut{to{transform:translateX(-120%);opacity:0}}
+.toast .tdot{width:9px;height:9px;border-radius:50%;background:#3ddc84;flex:none;box-shadow:0 0 0 0 rgba(61,220,132,.6);animation:pulse 2s infinite}
+.toast b{display:block;font-size:13.5px;font-weight:800;font-family:'Inter',sans-serif}
+.toast span{font-size:12px;color:var(--muted-2);font-weight:600}
+@media(max-width:700px){.toast-wrap{display:none}}
+
+/* --- exit popup --- */
+.exit-pop{position:fixed;inset:0;z-index:200;display:none;place-items:center;padding:20px}
+.exit-pop.on{display:grid}
+.ex-back{position:absolute;inset:0;background:rgba(2,4,9,.82);backdrop-filter:blur(6px)}
+.ex-card{
+  position:relative;max-width:520px;width:100%;padding:46px 40px;border-radius:24px;text-align:center;
+  background:var(--panel);border:2px solid color-mix(in srgb,var(--blue-lift) 50%,transparent);box-shadow:0 40px 100px rgba(0,0,0,.6);
+  animation:rise .5s ease forwards;
+}
+.ex-card h3{font-size:1.9rem;margin-bottom:12px}
+.ex-card p{color:var(--muted);font-weight:500;margin-bottom:22px}
+.ex-close{position:absolute;top:14px;right:16px;background:none;border:none;font-size:26px;color:var(--muted-2);cursor:pointer}
+.gift{font-size:46px;margin-bottom:10px}
+.ex-alt{font-size:13px;color:var(--muted-2);margin-top:14px}
+
+/* --- lightbox --- */
+.lightbox{position:fixed;inset:0;z-index:210;display:none;place-items:center;padding:20px}
+.lightbox.on{display:grid}
+.lb-backdrop{position:absolute;inset:0;background:rgba(2,4,9,.88);backdrop-filter:blur(6px)}
+.lb-card{position:relative;max-width:760px;width:100%;border-radius:22px;overflow:hidden;background:var(--panel);border:2px solid var(--line-2);box-shadow:0 40px 100px rgba(0,0,0,.65)}
+.lb-media{position:relative;aspect-ratio:16/9;background:#05070d}
+.lb-media img{width:100%;height:100%;object-fit:cover;opacity:.55}
+.lb-badge{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:24px}
+.lb-badge b{display:block;font-family:'Playfair Display',serif;font-size:1.6rem;margin-bottom:8px}
+.lb-badge span{color:var(--muted);font-size:14px}
+.lb-body{padding:28px 30px 32px}
+.lb-body h3{font-size:1.6rem;margin-bottom:8px}
+.lb-body p{color:var(--muted);font-weight:450;margin-bottom:18px}
+.lb-close{position:absolute;top:12px;right:14px;z-index:3;width:38px;height:38px;border-radius:50%;border:2px solid rgba(255,255,255,.35);background:rgba(5,7,13,.6);color:#fff;font-size:20px;cursor:pointer}
+
+/* --- chatbot --- */
+.chat-fab{
+  position:fixed;right:22px;bottom:138px;width:60px;height:60px;border-radius:50%;z-index:95;border:none;cursor:pointer;
+  display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#003087,#2b6cff);
+  box-shadow:0 18px 44px rgba(0,48,135,.6);transition:.3s;
+}
+.chat-fab:hover{transform:scale(1.07)}
+.chat-fab .pulse-ring{position:absolute;inset:0;border-radius:50%;border:2px solid #2b6cff;animation:ring 2.4s infinite}
+@keyframes ring{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.5);opacity:0}}
+.chat-badge{position:absolute;top:-4px;right:-4px;min-width:22px;height:22px;border-radius:999px;background:#e8112d;color:#fff;font-size:11px;font-weight:900;display:grid;place-items:center;padding:0 6px}
+.chat-panel{
+  position:fixed;right:22px;bottom:210px;width:380px;max-width:calc(100vw - 32px);max-height:min(620px,calc(100vh - 240px));
+  z-index:96;border-radius:22px;overflow:hidden;display:none;flex-direction:column;
+  background:var(--panel);border:2px solid var(--line-2);box-shadow:0 40px 90px rgba(0,0,0,.6);
+}
+.chat-panel.on{display:flex;animation:rise .35s ease forwards}
+.chat-head{display:flex;align-items:center;gap:12px;padding:16px 18px;background:linear-gradient(135deg,#00214f,#003087);color:#fff}
+.chat-head .avatar{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.16);font-weight:900;font-size:14px;flex:none}
+.chat-head b{display:block;font-family:'Inter',sans-serif;font-size:14.5px;font-weight:800}
+.chat-head span{font-size:11.5px;opacity:.85;font-weight:600}
+.chat-close{margin-left:auto;background:none;border:none;color:#fff;font-size:24px;cursor:pointer;opacity:.8}
+.chat-body{flex:1;overflow-y:auto;padding:18px;display:grid;gap:12px;align-content:start;background:var(--bg-2)}
+.msg{max-width:84%;padding:12px 16px;border-radius:16px;font-size:14.3px;font-weight:450;line-height:1.5;white-space:pre-line}
+.msg.bot{background:var(--panel);border:2px solid var(--line);border-bottom-left-radius:5px;justify-self:start}
+.msg.user{background:linear-gradient(135deg,#003087,#2b6cff);color:#fff;font-weight:600;border-bottom-right-radius:5px;justify-self:end}
+.msg a{color:var(--blue-soft);text-decoration:underline}
+.msg.bot b{font-weight:800}
+.typing{display:flex;gap:4px;padding:14px 16px}
+.typing i{width:7px;height:7px;border-radius:50%;background:var(--muted-2);animation:bob 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes bob{50%{transform:translateY(-5px);opacity:.5}}
+.chat-quick{display:flex;flex-wrap:wrap;gap:7px;padding:12px 14px;border-top:2px solid var(--line);background:var(--panel)}
+.chat-quick button{
+  padding:8px 13px;border-radius:999px;border:2px solid var(--line-2);background:transparent;cursor:pointer;
+  font-size:12px;font-weight:700;transition:.2s;
+}
+.chat-quick button:hover{border-color:var(--blue-lift);color:var(--blue-soft)}
+.chat-input{display:flex;gap:8px;padding:12px 14px;border-top:2px solid var(--line);background:var(--panel)}
+.chat-input input{flex:1;padding:12px 15px;border-radius:999px;border:2px solid var(--line-2);background:var(--bg-2);font-size:14px}
+.chat-input input:focus{outline:none;border-color:var(--blue-lift)}
+.chat-input button{width:44px;height:44px;border-radius:50%;border:none;cursor:pointer;background:linear-gradient(135deg,#003087,#2b6cff);color:#fff;display:grid;place-items:center}
+@media(max-width:480px){.chat-panel{right:12px;left:12px;bottom:150px;width:auto}}
+
+/* --- misc helpers --- */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:820px){.grid-2{grid-template-columns:1fr}}
+.pill-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:26px}
+.pill{padding:9px 18px;border-radius:999px;border:2px solid var(--line);background:var(--panel);font-size:13px;font-weight:700;color:var(--muted)}
+.hot{color:#ff8a5c;font-weight:900}
+.flash{animation:flash 1.6s infinite}
+@keyframes flash{50%{opacity:.45}}
+.dd{position:relative}
+.dd>button{padding:10px 16px;border-radius:999px;border:none;background:none;cursor:pointer;font-size:14.5px;font-weight:700;color:var(--muted)}
+.dd:hover>button{color:var(--ink)}
+.dd-menu{
+  position:absolute;top:calc(100% + 10px);left:0;min-width:250px;padding:10px;border-radius:16px;display:none;
+  background:var(--panel);border:2px solid var(--line-2);box-shadow:var(--card-shadow);
+}
+.dd:hover .dd-menu{display:grid;gap:3px}
+.dd-menu a{display:grid;padding:11px 14px;border-radius:11px;font-size:14px}
+.dd-menu a b{font-weight:800;font-size:14px}
+.dd-menu a span{font-size:12px;color:var(--muted-2);font-weight:500}
+.dd-menu a:hover{background:color-mix(in srgb,var(--blue) 26%,transparent)}
+
+
+/* ---- single-file router ---- */
+.route{display:none}
+.route.on{display:block;animation:routeIn .45s cubic-bezier(.2,.8,.2,1)}
+@keyframes routeIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+</style>
+</head>
+<body>
+<div class="reel-bg" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="urgency" id="urgency">
+  <span>⚠️ <b><span data-slots>3</span> shortlist slots left</b> this review cycle — intake closes in</span>
+  <span class="cd" id="cdClock">—</span>
+  <a href="#/submit">Send your reel →</a>
+  <button class="ux" id="urgencyClose" aria-label="Dismiss">×</button>
+</div>
+
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#/home" class="logo" aria-label="Vanguard Placement Group — home">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="57" fill="none" stroke="var(--logo-ink)" stroke-width="2.6" opacity=".9"/>
+        <text x="34" y="74" font-family="Playfair Display, Georgia, serif" font-size="56" font-weight="800" fill="var(--logo-blue)" text-anchor="middle">V</text>
+        <g transform="translate(78,48)">
+          <circle r="16" fill="var(--logo-blue)"/><circle r="4.4" fill="var(--bg)"/>
+          <circle cx="0" cy="-9.5" r="3.3" fill="var(--bg)"/><circle cx="0" cy="9.5" r="3.3" fill="var(--bg)"/>
+          <circle cx="-9.5" cy="0" r="3.3" fill="var(--bg)"/><circle cx="9.5" cy="0" r="3.3" fill="var(--bg)"/>
+        </g>
+        <text x="60" y="95" font-family="Inter, sans-serif" font-size="10.5" font-weight="900" letter-spacing="1.4" fill="var(--logo-ink)" text-anchor="middle">VANGUARD</text>
+        <text x="60" y="106" font-family="Inter, sans-serif" font-size="7.6" font-weight="700" letter-spacing="1.1" fill="var(--logo-ink)" opacity=".75" text-anchor="middle">PLACEMENT GROUP</text>
+      </svg>
+      <span class="logo-txt"><b>Vanguard Placement Group</b><small>Talent Acquisitions</small></span>
+    </a>
+    <div class="nav-links">
+      <a href="#/home" class="active">Home</a><a href="#/talent" class="">Our Talent</a><a href="#/shortlisted" class="">Shortlisted</a><a href="#/success-stories" class="">Testimonials</a><a href="#/about" class="">About</a>
+      <div class="dd"><button type="button">More ▾</button><div class="dd-menu"><a href="#/how-it-works"><b>How It Works</b><span>The 4-step vetting pipeline</span></a><a href="#/agencies"><b>For Agencies &amp; Casting</b><span>Request a shortlist</span></a><a href="#/faq"><b>FAQ</b><span>Every question, answered straight</span></a><a href="#/contact"><b>Contact</b><span>Talk to the review desk</span></a></div></div>
+    </div>
+    <div class="nav-right">
+      <button class="theme-btn" id="themeBtn" aria-label="Switch colour mode" title="Light / dark">◐</button>
+      <a href="#/submit" class="btn btn-primary btn-sm">Send Your Reel</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu"><span></span></button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu"><a href="#/home">Home</a><a href="#/talent">Our Talent</a><a href="#/shortlisted">Shortlisted</a><a href="#/success-stories">Testimonials</a><a href="#/about">About</a><a href="#/how-it-works">How It Works</a><a href="#/agencies">For Agencies &amp; Casting</a><a href="#/faq">FAQ</a><a href="#/contact">Contact</a>
+  <a href="#/submit" class="btn btn-primary" style="margin-top:16px;font-family:Inter,sans-serif;font-size:15px">Send Your Reel</a>
+</div>
+<div class="route" id="route-home" data-title="Vanguard Placement Group — Raw Talent In. Big Opportunities Out.">
+
+<header class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1900&q=70" alt="" onerror="this.style.display='none'">
+  </div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-edge" aria-hidden="true">Vet · Shortlist · Submit · Sign</div>
+  <div class="container hero-inner">
+    <div class="eyebrow rise" style="--d:.1s"><span class="dot"></span> <span data-slots>3</span> shortlist slots left — intake closes Friday</div>
+    <h1 class="hero-title" aria-label="Raw Talent In. Big Opportunities Out.">
+      <span class="line"><span class="w" style="--wd:.2s">Raw</span>&nbsp;<span class="w" style="--wd:.3s">Talent</span>&nbsp;<span class="w" style="--wd:.4s">In.</span></span>
+      <span class="line"><em class="w" style="--wd:.55s">Big&nbsp;Opportunities</em>&nbsp;<span class="w" style="--wd:.7s">Out.</span></span>
+    </h1>
+    <p class="hero-rot rise" style="--d:.85s" id="heroRot"
+       data-phrases="Reels read by people who actually cast.|A straight line to the right desk.|No gatekeepers. No waiting list.|Independent talent, agency-ready.">
+      <span id="rotTyped"></span><span class="cursor" aria-hidden="true"></span></p>
+    <p class="sub rise" style="--d:.95s">Send your reel or resume. We shortlist it straight to the right desks.</p>
+    <div class="cta-row rise" style="--d:1.05s">
+      <a href="#/submit" class="btn btn-primary">Send Your Reel</a>
+      <a href="#/shortlisted" class="btn btn-ghost">See who got shortlisted →</a>
+    </div>
+    <p class="hero-tag rise" style="--d:1.15s">Helping independents secure agency representation.</p>
+  </div>
+  <div class="hero-stats-bar">
+    <div class="container hs-inner">
+      <div class="stat"><b><span class="count" data-count="3200" data-comma="1">0</span><i>+</i></b><span>Talents vetted</span></div>
+      <div class="stat"><b><span class="count" data-count="4.9" data-decimals="1">0</span><i>★</i></b><span>Shortlist success rate</span></div>
+      <div class="stat"><b><span class="count" data-count="48">0</span><i>h</i></b><span>Average response</span></div>
+      <div class="stat"><b><span class="count" data-count="2">0</span></b><span>Agency offers per shortlist</span></div>
+    </div>
+  </div>
+</header>
+<div class="perf" aria-hidden="true"></div>
+
+<section class="logos-strip" style="padding:48px 0 30px">
+  <div class="container"><p class="logos-title">Desks our shortlists land on</p></div>
+  <div class="marquee"><div class="marquee-track" id="marqueeTrack">
+    <span class="client-logo lg-serif">Harlow &amp; Vance</span><span class="client-logo lg-bold">NORTHGATE TALENT</span>
+    <span class="client-logo lg-wide">MERIDIAN&nbsp;CASTING</span><span class="client-logo lg-serif">Rowe Artists</span>
+    <span class="client-logo lg-mono">stage_nine</span><span class="client-logo lg-bold">KESTREL&nbsp;MGMT</span>
+    <span class="client-logo lg-wide">ATLAS&nbsp;REP</span><span class="client-logo lg-serif">Linden Group</span>
+  </div></div>
+</section>
+
+<!-- 10-second test hook -->
+<section>
+  <div class="container">
+    <div class="magnet reveal">
+      <div>
+        <p class="sec-label">The 10-second test</p>
+        <h3>Would your reel survive the first <em>ten seconds?</em></h3>
+        <p>That's how long a casting desk gives it before the next tab. We watch the whole thing — then tell you exactly where most people lose them, and whether your opening scene is the right one.</p>
+        <div class="cta-row">
+          <a href="#/submit" class="btn btn-primary">Put my reel through the test</a>
+          <button class="btn btn-ghost" data-chat-open>Ask the desk first</button>
+        </div>
+      </div>
+      <div class="mg-side"><div class="mg-num">10s</div><p style="margin:0;font-weight:700">is all you get.<br>Make it the right 10.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">Our Talent</p>
+      <h2 class="sec-title">The people on our <em>books</em></h2>
+      <p class="sec-sub">Every one of them came to us independent — no agent, no manager, just footage and a reason to be seen. Click any profile to see the full file.</p></div>
+    <div class="talent-grid"><article class="talent-card reveal" data-filter-item="roster" data-cat="screen booked">
+  <span class="tc-tag booked">Booked</span>
+  <a href="#/talent-liam-k" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=70" alt="Liam K. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-liam-k/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-liam-k">Liam K.</a></h3>
+    <p class="tc-role">Screen actor · London</p>
+    <p style="margin-top:8px">Lead in new Netflix series</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=70" data-reel-title="Liam K. — showreel" data-chip="Screen actor" data-desc="2 min 10 sec · London. Lead in new Netflix series.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-liam-k" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="screen in-negotiation">
+  <span class="tc-tag ">In negotiation</span>
+  <a href="#/talent-amara-o" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=70" alt="Amara O. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-amara-o/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-amara-o">Amara O.</a></h3>
+    <p class="tc-role">Screen actor · Manchester</p>
+    <p style="margin-top:8px">Recurring role, BBC drama</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=70" data-reel-title="Amara O. — showreel" data-chip="Screen actor" data-desc="1 min 45 sec · Manchester. Recurring role, BBC drama.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-amara-o" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="commercial signed">
+  <span class="tc-tag signed">Signed</span>
+  <a href="#/talent-diego-s" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=70" alt="Diego S. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-diego-s/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-diego-s">Diego S.</a></h3>
+    <p class="tc-role">Commercial talent · Madrid</p>
+    <p style="margin-top:8px">Signed — three-year agency deal</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=70" data-reel-title="Diego S. — showreel" data-chip="Commercial talent" data-desc="1 min 30 sec · Madrid. Signed — three-year agency deal.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-diego-s" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article></div>
+    <div style="text-align:center;margin-top:44px" class="reveal"><a href="#/talent" class="btn btn-ghost">See the full roster →</a></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">Why Vanguard</p><h2 class="sec-title">Why talent <em>comes back</em> to us</h2></div>
+    <div class="why-grid">
+      <div class="feature reveal"><div class="f-check">✓</div><h3>We spot the moment that books the role</h3><p>One scene usually does the work. We find it, flag it, and make sure it is the first thing a casting desk sees.</p></div>
+      <div class="feature reveal" style="--d:.08s"><div class="f-check">✓</div><h3>We filter fast — no wasted time</h3><p>A straight yes or no, usually inside 48 hours. If your material is not ready, we tell you what is missing.</p></div>
+      <div class="feature reveal" style="--d:.16s"><div class="f-check">✓</div><h3>You speak directly to the right desk</h3><p>No submission portal, no form that disappears. Your material goes to a named person who is casting or signing right now.</p></div>
+      <div class="feature reveal" style="--d:.24s"><div class="f-check">✓</div><h3>Market-ready talent, not just reels</h3><p>Footage is half of it. We look at how you present, what you are right for today, and which room you belong in this season.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- locked teaser -->
+<section class="soft">
+  <div class="container" style="max-width:860px">
+    <div class="sec-head center reveal"><p class="sec-label">This month</p><h2 class="sec-title">Who got <em>signed</em> this month</h2>
+      <p class="sec-sub">Three names came off the shortlist with offers in the last 30 days.</p></div>
+    <div class="locked reveal">
+      <div class="blurred">
+        <p style="font-size:1.3rem;font-weight:700;margin-bottom:10px">Diego S. — signed, three-year commercial agreement, Madrid desk</p>
+        <p style="font-size:1.3rem;font-weight:700;margin-bottom:10px">Priya N. — signed, commercial and voice division, Dublin</p>
+        <p style="font-size:1.3rem;font-weight:700">Liam K. — lead role confirmed, streaming drama, London</p>
+      </div>
+      <div class="lock-ui">
+        <div><h3>🔒 Shortlist results are desk-only</h3>
+          <p>Tap to reveal this month's signings — and see what their material had in common.</p>
+          <button class="btn btn-primary" data-unlock>Reveal this month's signings</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">Testimonials</p><h2 class="sec-title">What clients <em>actually say</em></h2></div>
+    <div class="t-grid">
+      <div class="t-card reveal"><div class="t-stars">★★★★★</div><blockquote>“Vanguard spotted a quiet scene in my reel that got me the lead. Never had an agency do that before.”</blockquote><div class="t-who"><span class="t-avatar">AM</span><span><b>Alex M.</b><span>Actor · Toronto</span></span></div></div>
+      <div class="t-card reveal" style="--d:.08s"><div class="t-stars">★★★★★</div><blockquote>“They shortlisted me to three desks in one week. The first one called me back same day.”</blockquote><div class="t-who"><span class="t-avatar">ZP</span><span><b>Zara P.</b><span>Actress · London</span></span></div></div>
+      <div class="t-card reveal" style="--d:.16s"><div class="t-stars">★★★★★</div><blockquote>“This is the only vetting team that actually understands indie talent. My agent didn’t even get a look until Vanguard did.”</blockquote><div class="t-who"><span class="t-avatar">TH</span><span><b>Tyler H.</b><span>Actor · NYC</span></span></div></div>
+      <div class="t-card reveal" style="--d:.24s"><div class="t-stars">★★★★★</div><blockquote>“Clean, fast, and they only put talent in front of the right people. Best bridge I’ve ever used.”</blockquote><div class="t-who"><span class="t-avatar">RS</span><span><b>Riley S.</b><span>Actor · Vancouver</span></span></div></div>
+    </div>
+    <div style="text-align:center;margin-top:44px" class="reveal"><a href="#/shortlisted" class="btn btn-primary">See the full shortlist</a></div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">FAQ</p><h2 class="sec-title">Straight <em>answers</em></h2></div>
+    <div class="faq-list">
+      <div class="faq-item reveal" style="--d:.0s"><button class="faq-q">How does the shortlisting work?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>You send a reel or a resume. Someone here watches all of it, works out what you are right for this season, and puts your material on the desk of an agent or casting director looking for exactly that. You hear back either way — including when the answer is no.</p></div></div>
+<div class="faq-item reveal" style="--d:.1s"><button class="faq-q">How fast do you vet?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>48 hours on average. Busy weeks it stretches to three days, and we will say so rather than leave you refreshing your inbox. Shortlists go out the same week we approve them.</p></div></div>
+<div class="faq-item reveal" style="--d:.2s"><button class="faq-q">What makes Vanguard different?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>Most submissions get ten seconds and a delete. We watch the whole thing, and we only send you somewhere when the desk is genuinely looking for what you do. Fewer submissions, better ones.</p></div></div>
+<div class="faq-item reveal" style="--d:.3s"><button class="faq-q">How do I get started?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>Use the submit page, or email your link straight to vanguardplacementgroup@gmail.com. A link is fine — Vimeo, YouTube, Drive, whatever you already have.</p></div></div>
+    </div>
+    <div style="text-align:center;margin-top:36px" class="reveal"><a href="#/faq" class="btn btn-ghost">All 12 questions →</a></div>
+  </div>
+</section>
+
+<section style="padding:0 0 100px">
+  <div class="container"><div class="cta-card reveal">
+    <h2>Your reel is already sitting on a <em>hard drive.</em></h2>
+    <p>Send it over. We watch all of it, tell you honestly what it's ready for, and put it in front of the desk most likely to say yes. <b><span data-slots>3</span> slots</b> left this cycle.</p>
+    <div class="cta-row-w"><a href="#/submit" class="btn btn-white">Send Your Reel</a>
+      <a href="#/how-it-works" class="btn" style="border:2px solid rgba(255,255,255,.45);color:#fff">See how it works</a></div>
+    <p class="cta-mail">Questions first? <b>vanguardplacementgroup@gmail.com</b></p>
+  </div></div>
+</section>
+</div>
+<div class="route" id="route-talent" data-title="Our Talent — Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → Our Talent</p>
+    <h1>Our <em>Talent</em></h1>
+    <p class="lead">Screen, commercial, stage and voice. Every profile below was an independent submission first — click any face for the full file, credits and reel.</p>
+    <div class="cta-row" style="margin-top:28px"><a href="#/submit" class="btn btn-primary">Add me to the roster</a>
+      <a href="#/agencies" class="btn btn-ghost">I'm casting — request a shortlist</a></div>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="filters" data-filter-group="roster">
+      <button data-filter="all" class="active">All talent</button>
+      <button data-filter="screen">Screen</button>
+      <button data-filter="commercial">Commercial</button>
+      <button data-filter="stage">Stage</button>
+      <button data-filter="voice">Voice &amp; presenting</button>
+    </div>
+    <div class="talent-grid"><article class="talent-card reveal" data-filter-item="roster" data-cat="screen booked">
+  <span class="tc-tag booked">Booked</span>
+  <a href="#/talent-liam-k" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=70" alt="Liam K. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-liam-k/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-liam-k">Liam K.</a></h3>
+    <p class="tc-role">Screen actor · London</p>
+    <p style="margin-top:8px">Lead in new Netflix series</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=70" data-reel-title="Liam K. — showreel" data-chip="Screen actor" data-desc="2 min 10 sec · London. Lead in new Netflix series.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-liam-k" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="screen in-negotiation">
+  <span class="tc-tag ">In negotiation</span>
+  <a href="#/talent-amara-o" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=70" alt="Amara O. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-amara-o/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-amara-o">Amara O.</a></h3>
+    <p class="tc-role">Screen actor · Manchester</p>
+    <p style="margin-top:8px">Recurring role, BBC drama</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=70" data-reel-title="Amara O. — showreel" data-chip="Screen actor" data-desc="1 min 45 sec · Manchester. Recurring role, BBC drama.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-amara-o" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="commercial signed">
+  <span class="tc-tag signed">Signed</span>
+  <a href="#/talent-diego-s" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=70" alt="Diego S. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-diego-s/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-diego-s">Diego S.</a></h3>
+    <p class="tc-role">Commercial talent · Madrid</p>
+    <p style="margin-top:8px">Signed — three-year agency deal</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=70" data-reel-title="Diego S. — showreel" data-chip="Commercial talent" data-desc="1 min 30 sec · Madrid. Signed — three-year agency deal.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-diego-s" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="screen booked">
+  <span class="tc-tag booked">Booked</span>
+  <a href="#/talent-noor-h" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=70" alt="Noor H. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-noor-h/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-noor-h">Noor H.</a></h3>
+    <p class="tc-role">Screen actor · Toronto</p>
+    <p style="margin-top:8px">Supporting lead, indie feature</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=70" data-reel-title="Noor H. — showreel" data-chip="Screen actor" data-desc="2 min · Toronto. Supporting lead, indie feature.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-noor-h" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="stage in-negotiation">
+  <span class="tc-tag ">In negotiation</span>
+  <a href="#/talent-jonah-r" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=70" alt="Jonah R. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-jonah-r/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-jonah-r">Jonah R.</a></h3>
+    <p class="tc-role">Stage & screen · New York</p>
+    <p style="margin-top:8px">Series regular test, cable drama</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=70" data-reel-title="Jonah R. — showreel" data-chip="Stage & screen" data-desc="2 min 20 sec · New York. Series regular test, cable drama.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-jonah-r" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="voice signed">
+  <span class="tc-tag signed">Signed</span>
+  <a href="#/talent-priya-n" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=70" alt="Priya N. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-priya-n/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-priya-n">Priya N.</a></h3>
+    <p class="tc-role">Voice & presenting · Dublin</p>
+    <p style="margin-top:8px">Signed — commercial division</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=70" data-reel-title="Priya N. — showreel" data-chip="Voice & presenting" data-desc="60 sec voice sample + 90 sec presenting · Dublin. Signed — commercial division.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-priya-n" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article></div>
+    <div class="pill-row" style="margin-top:40px">
+      <span class="pill">🎬 Profiles updated weekly</span>
+      <span class="pill hot">🔥 <span data-slots>3</span> roster slots open</span>
+      <span class="pill">⏱ 48h review</span>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container"><div class="magnet reveal">
+    <div><p class="sec-label">Roster intake</p><h3>Want your profile on this <em>page?</em></h3>
+      <p>Roster profiles are built from material we have already reviewed. Send your reel, pass the review, and your file goes live with a direct request button on it.</p>
+      <a href="#/submit" class="btn btn-primary">Start my profile</a></div>
+    <div class="mg-side"><div class="mg-num">48h</div><p style="margin:0;font-weight:700">from submission<br>to a real answer.</p></div>
+  </div></div>
+</section>
+</div>
+<div class="route" id="route-shortlisted" data-title="Shortlisted — Recent Placements | Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → Shortlisted</p>
+    <h1>Recent <em>shortlists</em></h1>
+    <p class="lead">Where talent went after we put their material in front of the right desk. Names shortened at their request — click through for the full file.</p>
+    <div class="pill-row" style="justify-content:flex-start;margin-top:26px">
+      <span class="pill">📨 41 shortlists sent this quarter</span><span class="pill">✅ 2 average offers each</span><span class="pill hot">🔥 intake closes Friday</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="filters" data-filter-group="roster">
+      <button data-filter="all" class="active">Everything</button>
+      <button data-filter="booked">Booked</button>
+      <button data-filter="in-negotiation">In negotiation</button>
+      <button data-filter="signed">Signed</button>
+    </div>
+    <div class="talent-grid"><article class="talent-card reveal" data-filter-item="roster" data-cat="screen booked">
+  <span class="tc-tag booked">Booked</span>
+  <a href="#/talent-liam-k" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=70" alt="Liam K. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-liam-k/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-liam-k">Liam K.</a></h3>
+    <p class="tc-role">Screen actor · London</p>
+    <p style="margin-top:8px">Lead in new Netflix series</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=70" data-reel-title="Liam K. — showreel" data-chip="Screen actor" data-desc="2 min 10 sec · London. Lead in new Netflix series.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-liam-k" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="screen in-negotiation">
+  <span class="tc-tag ">In negotiation</span>
+  <a href="#/talent-amara-o" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=70" alt="Amara O. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-amara-o/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-amara-o">Amara O.</a></h3>
+    <p class="tc-role">Screen actor · Manchester</p>
+    <p style="margin-top:8px">Recurring role, BBC drama</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=70" data-reel-title="Amara O. — showreel" data-chip="Screen actor" data-desc="1 min 45 sec · Manchester. Recurring role, BBC drama.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-amara-o" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="commercial signed">
+  <span class="tc-tag signed">Signed</span>
+  <a href="#/talent-diego-s" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=70" alt="Diego S. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-diego-s/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-diego-s">Diego S.</a></h3>
+    <p class="tc-role">Commercial talent · Madrid</p>
+    <p style="margin-top:8px">Signed — three-year agency deal</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=70" data-reel-title="Diego S. — showreel" data-chip="Commercial talent" data-desc="1 min 30 sec · Madrid. Signed — three-year agency deal.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-diego-s" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal" data-filter-item="roster" data-cat="screen booked">
+  <span class="tc-tag booked">Booked</span>
+  <a href="#/talent-noor-h" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=70" alt="Noor H. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-noor-h/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-noor-h">Noor H.</a></h3>
+    <p class="tc-role">Screen actor · Toronto</p>
+    <p style="margin-top:8px">Supporting lead, indie feature</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=70" data-reel-title="Noor H. — showreel" data-chip="Screen actor" data-desc="2 min · Toronto. Supporting lead, indie feature.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-noor-h" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal hidden-card" data-filter-item="roster" data-cat="stage in-negotiation" data-extra>
+  <span class="tc-tag ">In negotiation</span>
+  <a href="#/talent-jonah-r" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=70" alt="Jonah R. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-jonah-r/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-jonah-r">Jonah R.</a></h3>
+    <p class="tc-role">Stage & screen · New York</p>
+    <p style="margin-top:8px">Series regular test, cable drama</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=70" data-reel-title="Jonah R. — showreel" data-chip="Stage & screen" data-desc="2 min 20 sec · New York. Series regular test, cable drama.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-jonah-r" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article><article class="talent-card reveal hidden-card" data-filter-item="roster" data-cat="voice signed" data-extra>
+  <span class="tc-tag signed">Signed</span>
+  <a href="#/talent-priya-n" class="tc-media" style="display:block">
+    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=70" alt="Priya N. headshot" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-priya-n/700/875'">
+  </a>
+  <div class="tc-body">
+    <h3><a href="#/talent-priya-n">Priya N.</a></h3>
+    <p class="tc-role">Voice & presenting · Dublin</p>
+    <p style="margin-top:8px">Signed — commercial division</p>
+    <div class="tc-actions">
+      <button class="tc-watch" data-reel data-img="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=70" data-reel-title="Priya N. — showreel" data-chip="Voice & presenting" data-desc="60 sec voice sample + 90 sec presenting · Dublin. Signed — commercial division.">▶ Watch Reel</button>
+      <a class="tc-watch" href="#/talent-priya-n" style="border-color:transparent;color:var(--blue-soft)">Full profile →</a>
+    </div>
+  </div>
+</article></div>
+    <div style="text-align:center;margin-top:44px" class="reveal">
+      <a href="#" class="btn btn-ghost" data-more="See full shortlist →">See full shortlist →</a>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container" style="max-width:860px">
+    <div class="sec-head center reveal"><p class="sec-label">Pattern</p><h2 class="sec-title">What the booked ones <em>had in common</em></h2></div>
+    <div class="steps">
+      <div class="step reveal"><b>1</b><div><h3>A strong scene in the first 15 seconds</h3><p>Not a montage. Not titles. A moment where something actually changes on their face.</p></div></div>
+      <div class="step reveal" style="--d:.08s"><b>2</b><div><h3>Under three minutes, every time</h3><p>Every reel that got a callback was shorter than the ones that did not.</p></div></div>
+      <div class="step reveal" style="--d:.16s"><b>3</b><div><h3>A clear line on what they want next</h3><p>“Returning drama, supporting” beats “open to anything” on every single desk.</p></div></div>
+    </div>
+    <div style="text-align:center;margin-top:36px" class="reveal"><a href="#/submit" class="btn btn-primary">Put my reel in the next shortlist</a></div>
+  </div>
+</section>
+</div>
+<div class="route" id="route-submit" data-title="Send Your Reel — Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → Send Your Reel</p>
+    <h1>Send your <em>reel</em></h1>
+    <p class="lead">Four quick steps. A link is all we need. The review desk comes back within 48 hours — including if the answer is no.</p>
+    <div class="pill-row" style="justify-content:flex-start;margin-top:24px">
+      <span class="pill hot">🔥 <span data-slots>3</span> slots left this cycle</span>
+      <span class="pill">⏱ Closes in <b id="cdClock2">—</b></span>
+      <span class="pill">📨 No account, no upload</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="container grid-2" style="align-items:start">
+    <div class="form-card reveal">
+      <h4>Submission — review desk</h4>
+      <p>Takes about 40 seconds.</p>
+      <form id="msForm" novalidate>
+        <div class="msf-bar"><i class="on"></i><i></i><i></i><i></i></div>
+
+        <div class="msf-step on">
+          <label class="field"><span>Your name</span><input type="text" name="name" placeholder="Alex Moore" required></label>
+          <label class="field"><span>Email</span><input type="email" name="email" placeholder="you@email.com" required></label>
+          <label class="field"><span>Phone (optional)</span><input type="tel" name="phone" placeholder="+44 …"></label>
+          <div class="msf-nav"><button type="button" class="btn btn-primary" data-next style="width:100%">Next →</button></div>
+        </div>
+
+        <div class="msf-step">
+          <label class="field"><span>Discipline</span><select name="role">
+            <option>Screen actor</option><option>Commercial talent</option><option>Stage &amp; theatre</option>
+            <option>Voice &amp; presenting</option><option>Other</option></select></label>
+          <label class="field"><span>City</span><input type="text" name="city" placeholder="London" required></label>
+          <label class="field"><span>Union status</span><select name="union">
+            <option>Non-union</option><option>Equity</option><option>SAG-AFTRA</option><option>ACTRA</option><option>Other / applying</option></select></label>
+          <div class="msf-nav"><button type="button" class="btn btn-ghost" data-prev>← Back</button><button type="button" class="btn btn-primary" data-next style="flex:1">Next →</button></div>
+        </div>
+
+        <div class="msf-step">
+          <label class="field"><span>Reel or resume link</span><input type="url" name="link" placeholder="https://vimeo.com/your-reel" required></label>
+          <label class="field"><span>Current representation</span><select name="rep">
+            <option>None — independent</option><option>Agent, looking to move</option><option>Manager only</option><option>Prefer not to say</option></select></label>
+          <div class="msf-nav"><button type="button" class="btn btn-ghost" data-prev>← Back</button><button type="button" class="btn btn-primary" data-next style="flex:1">Next →</button></div>
+        </div>
+
+        <div class="msf-step">
+          <label class="field"><span>What are you aiming for next?</span><textarea name="msg" placeholder="Returning drama, supporting roles. Recent credits: …"></textarea></label>
+          <div class="msf-nav"><button type="button" class="btn btn-ghost" data-prev>← Back</button><button type="submit" class="btn btn-primary" style="flex:1">📨 Send to the review desk</button></div>
+          <p class="form-note" id="msDone">Opens your email app addressed to vanguardplacementgroup@gmail.com.</p>
+        </div>
+      </form>
+    </div>
+
+    <div class="reveal" style="--d:.1s">
+      <div class="sec-head"><p class="sec-label">What happens next</p><h2 class="sec-title" style="font-size:2.2rem">No black hole. <em>Ever.</em></h2></div>
+      <div class="steps">
+        <div class="step"><b>1</b><div><h3>Confirmation, same day</h3><p>You get an email saying the desk has it, with a rough review date.</p></div></div>
+        <div class="step"><b>2</b><div><h3>Full review, 48 hours</h3><p>Someone watches all of it and writes notes. Not a filter, not a form.</p></div></div>
+        <div class="step"><b>3</b><div><h3>Yes, or an honest no</h3><p>Shortlisted — we name the desks. Not yet — you get the reasons and what to shoot.</p></div></div>
+      </div>
+      <div class="desk-note" style="margin-top:24px">“We would rather send one reel to the right desk than twenty to the wrong ones. That is the whole business.”<span>— Vanguard Review Department</span></div>
+      <button class="btn btn-ghost" data-chat-open style="width:100%">💬 Not sure what to send? Ask the desk</button>
+    </div>
+  </div>
+</section>
+</div>
+<div class="route" id="route-how-it-works" data-title="How It Works — Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → How It Works</p>
+    <h1>How it <em>works</em></h1>
+    <p class="lead">Four steps between a file on your laptop and a named person at an agency watching it. No portal, no algorithm, no silence.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container" style="max-width:900px">
+    <div class="steps">
+      <div class="step reveal"><b>1</b><div><h3>You send material</h3><p>A reel, a self-tape, a scene, a resume — a link is enough. Messy is fine. We have shortlisted people off a single phone-shot scene with decent sound.</p></div></div>
+      <div class="step reveal" style="--d:.08s"><b>2</b><div><h3>The desk watches everything</h3><p>All of it, not the first ten seconds. We note what you are castable for right now, which scene proves it, and what is missing if anything is.</p></div></div>
+      <div class="step reveal" style="--d:.16s"><b>3</b><div><h3>We match you to live briefs</h3><p>Agency and casting desks tell us what they are building this season. Your material goes to the ones genuinely looking for what you do — by name, not by mass email.</p></div></div>
+      <div class="step reveal" style="--d:.24s"><b>4</b><div><h3>You hear back either way</h3><p>Shortlisted: we tell you which desks and when. Not yet: you get the notes, free, and an open door to come back once you have shot what is missing.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">What a desk sees</p><h2 class="sec-title">The file we <em>send</em></h2>
+      <p class="sec-sub">Every shortlist goes out in the same format. Clean, short, impossible to ignore.</p></div>
+    <div class="grid-2">
+      <div class="feature reveal"><div class="f-check">01</div><h3>One page, no padding</h3><p>Name, playing age, location, union status, the single line that says what you are right for.</p></div>
+      <div class="feature reveal" style="--d:.08s"><div class="f-check">02</div><h3>Timecoded scene</h3><p>We tell the desk exactly where to start watching. Nobody scrubs for the good bit.</p></div>
+      <div class="feature reveal" style="--d:.16s"><div class="f-check">03</div><h3>Why we are sending you</h3><p>Two sentences on why you fit the brief they gave us. Specific, not flattering.</p></div>
+      <div class="feature reveal" style="--d:.24s"><div class="f-check">04</div><h3>A way to say yes fast</h3><p>Availability, contact, and a reply-to that reaches a person in minutes.</p></div>
+    </div>
+    <div style="text-align:center;margin-top:40px" class="reveal"><a href="#/submit" class="btn btn-primary">Start with step one →</a></div>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="max-width:860px">
+    <div class="sec-head center reveal"><p class="sec-label">FAQ</p><h2 class="sec-title">While you're <em>here</em></h2></div>
+    <div class="faq-list"><div class="faq-item reveal" style="--d:.0s"><button class="faq-q">How does the shortlisting work?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>You send a reel or a resume. Someone here watches all of it, works out what you are right for this season, and puts your material on the desk of an agent or casting director looking for exactly that. You hear back either way — including when the answer is no.</p></div></div>
+<div class="faq-item reveal" style="--d:.1s"><button class="faq-q">How fast do you vet?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>48 hours on average. Busy weeks it stretches to three days, and we will say so rather than leave you refreshing your inbox. Shortlists go out the same week we approve them.</p></div></div>
+<div class="faq-item reveal" style="--d:.2s"><button class="faq-q">What makes Vanguard different?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>Most submissions get ten seconds and a delete. We watch the whole thing, and we only send you somewhere when the desk is genuinely looking for what you do. Fewer submissions, better ones.</p></div></div></div>
+  </div>
+</section>
+</div>
+<div class="route" id="route-agencies" data-title="For Agencies & Casting — Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → For Agencies &amp; Casting</p>
+    <h1>For agencies &amp; <em>casting</em></h1>
+    <p class="lead">Tell us the brief. We come back with a pre-vetted shortlist — availability confirmed, material timecoded, no filler.</p>
+    <div class="cta-row" style="margin-top:28px">
+      <a href="mailto:vanguardplacementgroup@gmail.com?subject=Shortlist%20request" class="btn btn-primary">Request a shortlist</a>
+      <button class="btn btn-ghost" data-chat-open>Ask about coverage</button></div>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="why-grid">
+      <div class="feature reveal"><div class="f-check">✓</div><h3>Pre-vetted, not pre-filtered</h3><p>Every name on the list has been watched end to end by a person who can tell you why they are on it.</p></div>
+      <div class="feature reveal" style="--d:.08s"><div class="f-check">✓</div><h3>Timecoded material</h3><p>You get the exact scene that answers your brief. No scrubbing through four minutes of montage.</p></div>
+      <div class="feature reveal" style="--d:.16s"><div class="f-check">✓</div><h3>Availability confirmed first</h3><p>We check before we send. Nobody on your shortlist is already on location in another country.</p></div>
+      <div class="feature reveal" style="--d:.24s"><div class="f-check">✓</div><h3>Fresh faces, properly sourced</h3><p>Independent talent you will not have seen on the same three directories as everyone else.</p></div>
+      <div class="feature reveal" style="--d:.32s"><div class="f-check">✓</div><h3>Turnaround in days</h3><p>Standard briefs come back inside 72 hours. Urgent ones, same week — say so and we prioritise.</p></div>
+      <div class="feature reveal" style="--d:.4s"><div class="f-check">✓</div><h3>Discreet by default</h3><p>Project details stay with the desk. NDA on request, signed the same day.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container" style="max-width:820px">
+    <div class="sec-head center reveal"><p class="sec-label">Brief us</p><h2 class="sec-title">What we need from <em>you</em></h2></div>
+    <div class="steps">
+      <div class="step reveal"><b>1</b><div><h3>The role and the tone</h3><p>Playing age, register, how much screen time, what the character has to carry.</p></div></div>
+      <div class="step reveal" style="--d:.08s"><b>2</b><div><h3>Territory and union requirement</h3><p>Where it shoots, who can legally work on it, whether local-hire matters.</p></div></div>
+      <div class="step reveal" style="--d:.16s"><b>3</b><div><h3>Your deadline</h3><p>Real one, not the padded one. We will tell you straight if it is not possible.</p></div></div>
+    </div>
+    <div style="text-align:center;margin-top:36px" class="reveal">
+      <a href="mailto:vanguardplacementgroup@gmail.com?subject=Shortlist%20request%20%E2%80%94%20brief" class="btn btn-primary">Send us a brief</a></div>
+  </div>
+</section>
+</div>
+<div class="route" id="route-success-stories" data-title="Success Stories & Testimonials — Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → Testimonials</p>
+    <h1>What clients <em>actually say</em></h1>
+    <p class="lead">Four shortlists, four outcomes — and what actually changed between the version that got ignored and the version that got a callback.</p>
+  </div>
+</header>
+
+<section><div class="container"><article class="story reveal">
+  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=70" alt="Liam K." loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-s-liam-k/700/520'">
+  <div><div class="t-stars">★★★★★</div>
+    <h3>Lead in new Netflix series</h3>
+    <blockquote style="font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;margin-bottom:14px">“Vanguard spotted a quiet scene in my reel that got me the lead. Never had an agency do that before.”</blockquote>
+    <p>Three years of self-tapes, no agent, and a reel that opened on a fight scene. The desk moved a two-line hospital scene to the front — the one where he says almost nothing — and the first agency that watched it asked to meet him that week.</p>
+    <div class="cta-row"><a href="#/talent-liam-k" class="btn btn-ghost btn-sm">See the full profile →</a></div>
+  </div></article><article class="story reveal">
+  <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=70" alt="Amara O." loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-s-amara-o/700/520'">
+  <div><div class="t-stars">★★★★★</div>
+    <h3>Recurring role, BBC drama</h3>
+    <blockquote style="font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;margin-bottom:14px">“They shortlisted me to three desks in one week. The first one called me back same day.”</blockquote>
+    <p>She had been submitting to open calls for eighteen months. We cut the reel to ninety seconds, wrote one line about what she wanted next, and sent it to three desks building returning dramas. Two replied inside 24 hours.</p>
+    <div class="cta-row"><a href="#/talent-amara-o" class="btn btn-ghost btn-sm">See the full profile →</a></div>
+  </div></article><article class="story reveal">
+  <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=70" alt="Jonah R." loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-s-jonah-r/700/520'">
+  <div><div class="t-stars">★★★★★</div>
+    <h3>Series regular test, cable drama</h3>
+    <blockquote style="font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;margin-bottom:14px">“This is the only vetting team that actually understands indie talent. My agent didn’t even get a look until Vanguard did.”</blockquote>
+    <p>Twelve years of stage work, a reel ordered like a theatre programme. We led with the interrogation scene instead of the Shakespeare, and a cable drama tested him for a series regular inside a month.</p>
+    <div class="cta-row"><a href="#/talent-jonah-r" class="btn btn-ghost btn-sm">See the full profile →</a></div>
+  </div></article><article class="story reveal">
+  <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=70" alt="Priya N." loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-s-priya-n/700/520'">
+  <div><div class="t-stars">★★★★★</div>
+    <h3>Signed — commercial division</h3>
+    <blockquote style="font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;margin-bottom:14px">“Clean, fast, and they only put talent in front of the right people. Best bridge I’ve ever used.”</blockquote>
+    <p>A sixty-second voice sample with three clean reads and written range notes. It beat every ten-minute demo in the pile that month and the commercial division signed her.</p>
+    <div class="cta-row"><a href="#/talent-priya-n" class="btn btn-ghost btn-sm">See the full profile →</a></div>
+  </div></article></div></section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">In their words</p><h2 class="sec-title">More from the <em>roster</em></h2></div>
+    <div class="t-grid">
+      <div class="t-card reveal"><div class="t-stars">★★★★★</div><blockquote>“They told me my reel was not ready and exactly what to shoot. Six weeks later they shortlisted me. That honesty is rare.”</blockquote><div class="t-who"><span class="t-avatar">MK</span><span><b>Marcus K.</b><span>Actor · Birmingham</span></span></div></div>
+      <div class="t-card reveal" style="--d:.08s"><div class="t-stars">★★★★★</div><blockquote>“I had been emailing agencies for two years with nothing back. One shortlist and I had two meetings.”</blockquote><div class="t-who"><span class="t-avatar">EL</span><span><b>Elena L.</b><span>Actress · Dublin</span></span></div></div>
+      <div class="t-card reveal" style="--d:.16s"><div class="t-stars">★★★★★</div><blockquote>“Fast, specific, no flattery. They treat your career like it is a real thing, not a hobby.”</blockquote><div class="t-who"><span class="t-avatar">DO</span><span><b>Daniel O.</b><span>Voice artist · Manchester</span></span></div></div>
+    </div>
+    <div style="text-align:center;margin-top:44px" class="reveal"><a href="#/submit" class="btn btn-primary">Send Your Reel</a></div>
+  </div>
+</section>
+</div>
+<div class="route" id="route-about" data-title="About the Review Department — Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → About</p>
+    <h1>The <em>Review Department</em></h1>
+    <p class="lead">Vanguard Placement Group exists for one reason: independent talent with good material keeps getting lost in piles nobody finishes watching.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container grid-2" style="align-items:center;gap:50px">
+    <div class="reveal">
+      <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=900&q=70" alt="The review desk" style="border-radius:22px;border:2px solid var(--line)" onerror="this.src='https://picsum.photos/seed/vpg-about/900/700'">
+    </div>
+    <div class="reveal" style="--d:.1s">
+      <p class="sec-label">Who we are</p>
+      <h2 class="sec-title" style="font-size:2.4rem">A desk, not a <em>directory</em></h2>
+      <p style="color:var(--muted);font-weight:450;margin-bottom:16px">We are a small talent acquisitions team. People bring us reels and resumes, we watch everything properly, and the material that is ready goes to agents and casting directors we actually speak to.</p>
+      <p style="color:var(--muted);font-weight:450;margin-bottom:16px">There is no directory to pay into and no profile that sits there collecting dust. A shortlist is a real email, to a real person, with your scene timecoded in it.</p>
+      <p style="color:var(--muted);font-weight:450">When someone is not ready, we say that too — with the reasons. It is the part of the job people thank us for most.</p>
+      <div class="cta-row" style="margin-top:24px"><a href="#/submit" class="btn btn-primary">Send your reel</a><a href="#/how-it-works" class="btn btn-ghost">How it works</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">Standards</p><h2 class="sec-title">What we <em>will not</em> do</h2></div>
+    <div class="why-grid">
+      <div class="feature reveal"><div class="f-check">✕</div><h3>Mass-submit you</h3><p>Blasting fifty desks burns your name. We send to the ones that briefed us for what you do.</p></div>
+      <div class="feature reveal" style="--d:.08s"><div class="f-check">✕</div><h3>Promise representation</h3><p>Nobody can. We promise the review, the honesty and the submission — the signature is the agency's call.</p></div>
+      <div class="feature reveal" style="--d:.16s"><div class="f-check">✕</div><h3>Sit on your material</h3><p>48 hours, then you know. No limbo, no chasing, no polite silence.</p></div>
+      <div class="feature reveal" style="--d:.24s"><div class="f-check">✕</div><h3>Share anything publicly</h3><p>Your reel goes to desks only. NDA on request, same day.</p></div>
+    </div>
+    <div class="hs-inner" style="margin-top:50px;border:2px solid var(--line);border-radius:20px;overflow:hidden">
+      <div class="stat"><b><span class="count" data-count="3200" data-comma="1">0</span><i>+</i></b><span>Talents vetted</span></div>
+      <div class="stat"><b><span class="count" data-count="41">0</span></b><span>Shortlists this quarter</span></div>
+      <div class="stat"><b><span class="count" data-count="48">0</span><i>h</i></b><span>Average response</span></div>
+      <div class="stat"><b><span class="count" data-count="9">0</span></b><span>Territories covered</span></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding:0 0 100px">
+  <div class="container"><div class="cta-card reveal">
+    <h2>Send it. <em>Worst case</em>, you get honest notes.</h2>
+    <p>Best case, your material is on an agency desk by Friday. <b><span data-slots>3</span> slots</b> left in this review cycle.</p>
+    <div class="cta-row-w"><a href="#/submit" class="btn btn-white">Send Your Reel</a>
+      <a href="#/contact" class="btn" style="border:2px solid rgba(255,255,255,.45);color:#fff">Talk to the desk</a></div>
+    <p class="cta-mail">Or email <b>vanguardplacementgroup@gmail.com</b></p>
+  </div></div>
+</section>
+</div>
+<div class="route" id="route-faq" data-title="FAQ — Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → FAQ</p>
+    <h1>Straight <em>answers</em></h1>
+    <p class="lead">Twelve questions we get before anyone sends anything over. If yours is not here, the chat assistant answers in seconds.</p>
+    <div class="cta-row" style="margin-top:26px"><button class="btn btn-primary" data-chat-open>💬 Ask the desk</button>
+      <a href="#/submit" class="btn btn-ghost">Skip ahead — send my reel</a></div>
+  </div>
+</header>
+
+<section><div class="container"><div class="faq-list"><div class="faq-item reveal" style="--d:.0s"><button class="faq-q">How does the shortlisting work?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>You send a reel or a resume. Someone here watches all of it, works out what you are right for this season, and puts your material on the desk of an agent or casting director looking for exactly that. You hear back either way — including when the answer is no.</p></div></div>
+<div class="faq-item reveal" style="--d:.1s"><button class="faq-q">How fast do you vet?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>48 hours on average. Busy weeks it stretches to three days, and we will say so rather than leave you refreshing your inbox. Shortlists go out the same week we approve them.</p></div></div>
+<div class="faq-item reveal" style="--d:.2s"><button class="faq-q">What makes Vanguard different?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>Most submissions get ten seconds and a delete. We watch the whole thing, and we only send you somewhere when the desk is genuinely looking for what you do. Fewer submissions, better ones.</p></div></div>
+<div class="faq-item reveal" style="--d:.3s"><button class="faq-q">How do I get started?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>Use the submit page, or email your link straight to vanguardplacementgroup@gmail.com. A link is fine — Vimeo, YouTube, Drive, whatever you already have.</p></div></div>
+<div class="faq-item reveal" style="--d:.4s"><button class="faq-q">How much does it cost?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>There is no fixed list. It depends on how much material you have, how many desks we are approaching and how quickly you need it moving. Tell us what you are after and you will have a number within 24 hours — and the number we quote is the number you pay.</p></div></div>
+<div class="faq-item reveal" style="--d:.5s"><button class="faq-q">Do you take union and non-union?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>Both. Plenty of the talent we shortlist is non-union and still gets signed. If a role or a desk is union-only we will tell you before we submit, not after.</p></div></div>
+<div class="faq-item reveal" style="--d:.6s"><button class="faq-q">What do I actually need to send?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>A link to a reel, self-tape or scene, a credit list or resume, and a current headshot. One line on what you are aiming for next helps us match the right desk. No reel yet? Send a self-tape — we have shortlisted people off a single scene.</p></div></div>
+<div class="faq-item reveal" style="--d:.7s"><button class="faq-q">Am I good enough to be shortlisted?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>About a third of submissions get shortlisted straight away. Some get notes and come back stronger. Some are not ready yet — and you will be told that in plain words rather than left waiting.</p></div></div>
+<div class="faq-item reveal" style="--d:.8s"><button class="faq-q">Do you lock me into anything?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>No exclusivity. Shortlisting through us does not stop you submitting yourself or signing elsewhere. If an agency signs you, the relationship is yours.</p></div></div>
+<div class="faq-item reveal" style="--d:.9s"><button class="faq-q">What happens to my material?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>It goes to desks only. Never posted publicly, never sold on, never used as marketing without written permission. Ask for an NDA and you will have one the same day.</p></div></div>
+<div class="faq-item reveal" style="--d:.10s"><button class="faq-q">How long should my reel be?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>One to three minutes, strongest scene first. A desk decides in the first twenty seconds whether to keep watching, so do not bury the moment that proves you can act.</p></div></div>
+<div class="faq-item reveal" style="--d:.11s"><button class="faq-q">I am just starting out — is it worth submitting?<span class="faq-icon">+</span></button>
+<div class="faq-a"><p>Yes. We have shortlisted people whose only footage was a student film and two self-tapes. What matters is whether the material shows something castable — and if it does not yet, we tell you what to shoot next.</p></div></div></div></div></section>
+
+<section class="soft">
+  <div class="container"><div class="magnet reveal">
+    <div><p class="sec-label">Free</p><h3>The <em>Reel Teardown Checklist</em></h3>
+      <p>The 12 things our desk checks before shortlisting anyone — the same list, in the same order. Run your reel through it before you send.</p>
+      <a class="btn btn-primary" href="mailto:vanguardplacementgroup@gmail.com?subject=Send%20me%20the%20Reel%20Teardown%20Checklist">Email me the checklist</a></div>
+    <div class="mg-side"><div class="mg-num">12</div><p style="margin:0;font-weight:700">checks.<br>Two minutes.</p></div>
+  </div></div>
+</section>
+</div>
+<div class="route" id="route-contact" data-title="Contact — Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → Contact</p>
+    <h1>Talk to the <em>desk</em></h1>
+    <p class="lead">One inbox, real people, 48-hour average reply. Talent, agencies and press all land in the same place.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container grid-2" style="align-items:start">
+    <div class="reveal">
+      <div class="steps">
+        <div class="step"><b>✉</b><div><h3>Email</h3><p><a href="mailto:vanguardplacementgroup@gmail.com" style="color:var(--blue-soft);font-weight:700">vanguardplacementgroup@gmail.com</a><br>Talent submissions, agency briefs, everything else.</p></div></div>
+        <div class="step"><b>⏱</b><div><h3>Response time</h3><p>48 hours average. Three days in a heavy intake week — and we will say so.</p></div></div>
+        <div class="step"><b>💬</b><div><h3>Instant answers</h3><p>The chat assistant handles the common questions right now, day or night. <button class="tc-watch" data-chat-open style="margin-top:8px">Open the chat</button></p></div></div>
+        <div class="step"><b>🔒</b><div><h3>Confidentiality</h3><p>Material goes to desks only. NDA on request, signed the same day.</p></div></div>
+      </div>
+    </div>
+    <div class="form-card reveal" style="--d:.1s">
+      <h4>Send a message</h4>
+      <p>Submitting a reel? The <a href="#/submit" style="color:var(--blue-soft);font-weight:700">submission form</a> is faster.</p>
+      <form class="simple-form" novalidate>
+        <div class="f-row">
+          <label class="field"><span>Your name</span><input type="text" name="name" placeholder="Alex Moore" required></label>
+          <label class="field"><span>Email</span><input type="email" name="email" placeholder="you@email.com" required></label>
+        </div>
+        <div class="f-row">
+          <label class="field"><span>You are</span><select name="role">
+            <option>Talent — submitting</option><option>Agency / casting desk</option><option>Press</option><option>Other</option></select></label>
+          <label class="field"><span>City</span><input type="text" name="city" placeholder="London"></label>
+        </div>
+        <label class="field"><span>Link (reel, site, brief)</span><input type="url" name="link" placeholder="https://" required></label>
+        <label class="field"><span>Message</span><textarea name="msg" placeholder="What do you need?"></textarea></label>
+        <button type="submit" class="btn btn-primary" style="width:100%">Send message</button>
+        <p class="form-note">Opens your email app addressed to vanguardplacementgroup@gmail.com.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</div>
+<div class="route" id="route-404" data-title="Page not found — Vanguard Placement Group">
+
+<header class="page-hero" style="padding:220px 0 120px;text-align:center">
+  <div class="container">
+    <p class="sec-label" style="justify-content:center">404</p>
+    <h1>That page is off the <em>shortlist</em>.</h1>
+    <p class="lead" style="margin:0 auto">The link is broken or the page moved. The talent is still here though.</p>
+    <div class="cta-row" style="justify-content:center;margin-top:30px">
+      <a href="#/home" class="btn btn-primary">Back to home</a>
+      <a href="#/talent" class="btn btn-ghost">See the roster</a></div>
+  </div>
+</header>
+</div>
+<div class="route" id="route-talent-liam-k" data-title="Liam K. — Screen actor, London | Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → <a href="#/talent">Our Talent</a> → Liam K.</p>
+  </div>
+</header>
+
+<section style="padding:60px 0 90px">
+  <div class="container pf-grid">
+    <div class="reveal">
+      <div class="pf-media">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=70" alt="Liam K. headshot" onerror="this.src='https://picsum.photos/seed/vpg-liam-k/800/1000'">
+        <button class="pf-play" data-reel data-img="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=70" data-reel-title="Liam K. — showreel" data-chip="Screen actor" data-desc="2 min 10 sec · London. Lead in new Netflix series.">▶ Watch the reel</button>
+      </div>
+      <div class="pf-gallery"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=70" alt="Liam K. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-liam-k-0/400/400'"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=70" alt="Liam K. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-liam-k-1/400/400'"><img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=900&q=70" alt="Liam K. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-liam-k-2/400/400'"></div>
+      <div class="pf-stats">
+        <div><b>4</b><span>Desks submitted</span></div>
+        <div><b>3</b><span>Callbacks</span></div>
+        <div><b>19h</b><span>First reply</span></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="--d:.1s">
+      <div class="pf-head">
+        <span class="tc-tag booked" style="position:static;display:inline-block;margin-bottom:16px">Booked</span>
+        <h1>Liam K.</h1>
+        <p class="pf-sub">Screen actor · London</p>
+      </div>
+      <p style="font-size:1.15rem;font-weight:500;color:var(--muted);margin-bottom:26px">Lead in new Netflix series. Shortlisted by the Vanguard review desk and currently working with partner agencies in London and beyond.</p>
+
+      <div class="desk-note">“He does almost nothing in the third scene and it is the best thing on the tape. That is the clip we led with, and it is the clip the desk called about.”<span>— Vanguard Review Department</span></div>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:12px">Profile</h2>
+      <table class="pf-table">
+        <tr><td>Playing age</td><td>28–35</td></tr>
+        <tr><td>Height</td><td>6'0"</td></tr>
+        <tr><td>Accents</td><td>RP, Northern English, General American</td></tr>
+        <tr><td>Languages</td><td>English, basic French</td></tr>
+        <tr><td>Union status</td><td>Equity</td></tr>
+        <tr><td>Representation</td><td>Signed via Vanguard shortlist, 2026</td></tr>
+        <tr><td>Reel length</td><td>2 min 10 sec</td></tr>
+        <tr><td>Training</td><td>Three years rep theatre, screen intensive at a London studio</td></tr>
+      </table>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:14px">Selected credits</h2>
+      <ul class="pf-credits"><li><b>2026</b><span>Lead — untitled streaming drama (in production)</span></li><li><b>2025</b><span>Supporting — independent feature, festival circuit</span></li><li><b>2025</b><span>Guest lead — returning crime series, episode 4</span></li><li><b>2024</b><span>National commercial — insurance campaign</span></li><li><b>2023</b><span>Stage — two-hander, Edinburgh run</span></li></ul>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:vanguardplacementgroup@gmail.com?subject=Talent%20enquiry%20%E2%80%94%20Liam%20K.">Request Liam for a role</a>
+        <a class="btn btn-ghost" href="#/submit">I want a profile like this</a>
+      </div>
+      <p style="font-size:13px;color:var(--muted-2);margin-top:14px">Representation enquiries go straight to the Review Department. Average reply: 48 hours.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">More talent</p><h2 class="sec-title">Others on the <em>books</em></h2></div>
+    <div class="pill-row"><a class="pill" href="#/talent-amara-o">Amara O. · Manchester</a><a class="pill" href="#/talent-diego-s">Diego S. · Madrid</a><a class="pill" href="#/talent-noor-h">Noor H. · Toronto</a><a class="pill" href="#/talent-jonah-r">Jonah R. · New York</a><a class="pill" href="#/talent-priya-n">Priya N. · Dublin</a></div>
+    <div style="text-align:center;margin-top:34px" class="reveal"><a href="#/talent" class="btn btn-ghost">See the full roster →</a></div>
+  </div>
+</section>
+
+<section style="padding:0 0 100px">
+  <div class="container"><div class="cta-card reveal">
+    <h2>Your profile could be the <em>next one</em> on this list.</h2>
+    <p>Only <b><span data-slots>3</span> shortlist slots</b> left this cycle. Send your reel and the desk starts reviewing within 48 hours.</p>
+    <div class="cta-row-w"><a href="#/submit" class="btn btn-white">Send Your Reel</a>
+      <button class="btn" style="border:2px solid rgba(255,255,255,.45);color:#fff" data-chat-open>Ask the desk a question</button></div>
+    <p class="cta-mail">Or email <b>vanguardplacementgroup@gmail.com</b></p>
+  </div></div>
+</section>
+</div>
+<div class="route" id="route-talent-amara-o" data-title="Amara O. — Screen actor, Manchester | Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → <a href="#/talent">Our Talent</a> → Amara O.</p>
+  </div>
+</header>
+
+<section style="padding:60px 0 90px">
+  <div class="container pf-grid">
+    <div class="reveal">
+      <div class="pf-media">
+        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=70" alt="Amara O. headshot" onerror="this.src='https://picsum.photos/seed/vpg-amara-o/800/1000'">
+        <button class="pf-play" data-reel data-img="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=70" data-reel-title="Amara O. — showreel" data-chip="Screen actor" data-desc="1 min 45 sec · Manchester. Recurring role, BBC drama.">▶ Watch the reel</button>
+      </div>
+      <div class="pf-gallery"><img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=900&q=70" alt="Amara O. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-amara-o-0/400/400'"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=70" alt="Amara O. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-amara-o-1/400/400'"><img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=70" alt="Amara O. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-amara-o-2/400/400'"></div>
+      <div class="pf-stats">
+        <div><b>3</b><span>Desks submitted</span></div>
+        <div><b>2</b><span>Callbacks</span></div>
+        <div><b>31h</b><span>First reply</span></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="--d:.1s">
+      <div class="pf-head">
+        <span class="tc-tag " style="position:static;display:inline-block;margin-bottom:16px">In negotiation</span>
+        <h1>Amara O.</h1>
+        <p class="pf-sub">Screen actor · Manchester</p>
+      </div>
+      <p style="font-size:1.15rem;font-weight:500;color:var(--muted);margin-bottom:26px">Recurring role, BBC drama. Shortlisted by the Vanguard review desk and currently working with partner agencies in Manchester and beyond.</p>
+
+      <div class="desk-note">“Comedy timing that does not announce itself. We sent her to a drama desk anyway, because the restraint is what sells the jokes.”<span>— Vanguard Review Department</span></div>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:12px">Profile</h2>
+      <table class="pf-table">
+        <tr><td>Playing age</td><td>24–31</td></tr>
+        <tr><td>Height</td><td>5'6"</td></tr>
+        <tr><td>Accents</td><td>Northern English, RP, Nigerian</td></tr>
+        <tr><td>Languages</td><td>English, Yoruba</td></tr>
+        <tr><td>Union status</td><td>Equity</td></tr>
+        <tr><td>Representation</td><td>In negotiation — two desks</td></tr>
+        <tr><td>Reel length</td><td>1 min 45 sec</td></tr>
+        <tr><td>Training</td><td>Drama school graduate, 2023</td></tr>
+      </table>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:14px">Selected credits</h2>
+      <ul class="pf-credits"><li><b>2026</b><span>Recurring — returning network drama (terms in negotiation)</span></li><li><b>2025</b><span>Short film lead — BIFA-qualifying festival</span></li><li><b>2024</b><span>Supporting — streaming anthology, episode 2</span></li><li><b>2024</b><span>Brand film — retail campaign, national</span></li><li><b>2023</b><span>Stage — ensemble, regional theatre</span></li></ul>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:vanguardplacementgroup@gmail.com?subject=Talent%20enquiry%20%E2%80%94%20Amara%20O.">Request Amara for a role</a>
+        <a class="btn btn-ghost" href="#/submit">I want a profile like this</a>
+      </div>
+      <p style="font-size:13px;color:var(--muted-2);margin-top:14px">Representation enquiries go straight to the Review Department. Average reply: 48 hours.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">More talent</p><h2 class="sec-title">Others on the <em>books</em></h2></div>
+    <div class="pill-row"><a class="pill" href="#/talent-liam-k">Liam K. · London</a><a class="pill" href="#/talent-diego-s">Diego S. · Madrid</a><a class="pill" href="#/talent-noor-h">Noor H. · Toronto</a><a class="pill" href="#/talent-jonah-r">Jonah R. · New York</a><a class="pill" href="#/talent-priya-n">Priya N. · Dublin</a></div>
+    <div style="text-align:center;margin-top:34px" class="reveal"><a href="#/talent" class="btn btn-ghost">See the full roster →</a></div>
+  </div>
+</section>
+
+<section style="padding:0 0 100px">
+  <div class="container"><div class="cta-card reveal">
+    <h2>Your profile could be the <em>next one</em> on this list.</h2>
+    <p>Only <b><span data-slots>3</span> shortlist slots</b> left this cycle. Send your reel and the desk starts reviewing within 48 hours.</p>
+    <div class="cta-row-w"><a href="#/submit" class="btn btn-white">Send Your Reel</a>
+      <button class="btn" style="border:2px solid rgba(255,255,255,.45);color:#fff" data-chat-open>Ask the desk a question</button></div>
+    <p class="cta-mail">Or email <b>vanguardplacementgroup@gmail.com</b></p>
+  </div></div>
+</section>
+</div>
+<div class="route" id="route-talent-diego-s" data-title="Diego S. — Commercial talent, Madrid | Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → <a href="#/talent">Our Talent</a> → Diego S.</p>
+  </div>
+</header>
+
+<section style="padding:60px 0 90px">
+  <div class="container pf-grid">
+    <div class="reveal">
+      <div class="pf-media">
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=70" alt="Diego S. headshot" onerror="this.src='https://picsum.photos/seed/vpg-diego-s/800/1000'">
+        <button class="pf-play" data-reel data-img="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=70" data-reel-title="Diego S. — showreel" data-chip="Commercial talent" data-desc="1 min 30 sec · Madrid. Signed — three-year agency deal.">▶ Watch the reel</button>
+      </div>
+      <div class="pf-gallery"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&q=70" alt="Diego S. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-diego-s-0/400/400'"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=70" alt="Diego S. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-diego-s-1/400/400'"><img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=70" alt="Diego S. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-diego-s-2/400/400'"></div>
+      <div class="pf-stats">
+        <div><b>2</b><span>Desks submitted</span></div>
+        <div><b>2</b><span>Callbacks</span></div>
+        <div><b>14h</b><span>First reply</span></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="--d:.1s">
+      <div class="pf-head">
+        <span class="tc-tag signed" style="position:static;display:inline-block;margin-bottom:16px">Signed</span>
+        <h1>Diego S.</h1>
+        <p class="pf-sub">Commercial talent · Madrid</p>
+      </div>
+      <p style="font-size:1.15rem;font-weight:500;color:var(--muted);margin-bottom:26px">Signed — three-year agency deal. Shortlisted by the Vanguard review desk and currently working with partner agencies in Madrid and beyond.</p>
+
+      <div class="desk-note">“Non-union, no agent, one decent commercial and a phone self-tape. Signed inside three weeks. The material was never the problem — nobody had put it in front of the right desk.”<span>— Vanguard Review Department</span></div>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:12px">Profile</h2>
+      <table class="pf-table">
+        <tr><td>Playing age</td><td>30–40</td></tr>
+        <tr><td>Height</td><td>5'11"</td></tr>
+        <tr><td>Accents</td><td>Castilian Spanish, General American</td></tr>
+        <tr><td>Languages</td><td>Spanish, English, Portuguese</td></tr>
+        <tr><td>Union status</td><td>Non-union</td></tr>
+        <tr><td>Representation</td><td>Signed — three-year agreement, 2026</td></tr>
+        <tr><td>Reel length</td><td>1 min 30 sec</td></tr>
+        <tr><td>Training</td><td>On-camera technique, Madrid; improv background</td></tr>
+      </table>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:14px">Selected credits</h2>
+      <ul class="pf-credits"><li><b>2026</b><span>Signed — commercial division, three-year term</span></li><li><b>2025</b><span>National campaign — automotive, Iberia</span></li><li><b>2025</b><span>Hero spot — telecoms, regional broadcast</span></li><li><b>2024</b><span>Supporting — Spanish-language streaming series</span></li><li><b>2024</b><span>Print campaign — menswear</span></li></ul>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:vanguardplacementgroup@gmail.com?subject=Talent%20enquiry%20%E2%80%94%20Diego%20S.">Request Diego for a role</a>
+        <a class="btn btn-ghost" href="#/submit">I want a profile like this</a>
+      </div>
+      <p style="font-size:13px;color:var(--muted-2);margin-top:14px">Representation enquiries go straight to the Review Department. Average reply: 48 hours.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">More talent</p><h2 class="sec-title">Others on the <em>books</em></h2></div>
+    <div class="pill-row"><a class="pill" href="#/talent-liam-k">Liam K. · London</a><a class="pill" href="#/talent-amara-o">Amara O. · Manchester</a><a class="pill" href="#/talent-noor-h">Noor H. · Toronto</a><a class="pill" href="#/talent-jonah-r">Jonah R. · New York</a><a class="pill" href="#/talent-priya-n">Priya N. · Dublin</a></div>
+    <div style="text-align:center;margin-top:34px" class="reveal"><a href="#/talent" class="btn btn-ghost">See the full roster →</a></div>
+  </div>
+</section>
+
+<section style="padding:0 0 100px">
+  <div class="container"><div class="cta-card reveal">
+    <h2>Your profile could be the <em>next one</em> on this list.</h2>
+    <p>Only <b><span data-slots>3</span> shortlist slots</b> left this cycle. Send your reel and the desk starts reviewing within 48 hours.</p>
+    <div class="cta-row-w"><a href="#/submit" class="btn btn-white">Send Your Reel</a>
+      <button class="btn" style="border:2px solid rgba(255,255,255,.45);color:#fff" data-chat-open>Ask the desk a question</button></div>
+    <p class="cta-mail">Or email <b>vanguardplacementgroup@gmail.com</b></p>
+  </div></div>
+</section>
+</div>
+<div class="route" id="route-talent-noor-h" data-title="Noor H. — Screen actor, Toronto | Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → <a href="#/talent">Our Talent</a> → Noor H.</p>
+  </div>
+</header>
+
+<section style="padding:60px 0 90px">
+  <div class="container pf-grid">
+    <div class="reveal">
+      <div class="pf-media">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=70" alt="Noor H. headshot" onerror="this.src='https://picsum.photos/seed/vpg-noor-h/800/1000'">
+        <button class="pf-play" data-reel data-img="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=70" data-reel-title="Noor H. — showreel" data-chip="Screen actor" data-desc="2 min · Toronto. Supporting lead, indie feature.">▶ Watch the reel</button>
+      </div>
+      <div class="pf-gallery"><img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=70" alt="Noor H. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-noor-h-0/400/400'"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=70" alt="Noor H. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-noor-h-1/400/400'"><img src="https://images.unsplash.com/photo-1522556189639-b150ed9c4330?auto=format&fit=crop&w=900&q=70" alt="Noor H. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-noor-h-2/400/400'"></div>
+      <div class="pf-stats">
+        <div><b>3</b><span>Desks submitted</span></div>
+        <div><b>3</b><span>Callbacks</span></div>
+        <div><b>22h</b><span>First reply</span></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="--d:.1s">
+      <div class="pf-head">
+        <span class="tc-tag booked" style="position:static;display:inline-block;margin-bottom:16px">Booked</span>
+        <h1>Noor H.</h1>
+        <p class="pf-sub">Screen actor · Toronto</p>
+      </div>
+      <p style="font-size:1.15rem;font-weight:500;color:var(--muted);margin-bottom:26px">Supporting lead, indie feature. Shortlisted by the Vanguard review desk and currently working with partner agencies in Toronto and beyond.</p>
+
+      <div class="desk-note">“Three desks, three callbacks. That almost never happens, and it happened because the reel opened on the one scene where she was not performing at all.”<span>— Vanguard Review Department</span></div>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:12px">Profile</h2>
+      <table class="pf-table">
+        <tr><td>Playing age</td><td>22–29</td></tr>
+        <tr><td>Height</td><td>5'4"</td></tr>
+        <tr><td>Accents</td><td>Canadian, General American, Levantine Arabic</td></tr>
+        <tr><td>Languages</td><td>English, Arabic, French</td></tr>
+        <tr><td>Union status</td><td>ACTRA apprentice</td></tr>
+        <tr><td>Representation</td><td>Shortlisted to 3 desks — offer accepted</td></tr>
+        <tr><td>Reel length</td><td>2 min</td></tr>
+        <tr><td>Training</td><td>Conservatory programme, Toronto</td></tr>
+      </table>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:14px">Selected credits</h2>
+      <ul class="pf-credits"><li><b>2026</b><span>Supporting lead — independent feature (post-production)</span></li><li><b>2025</b><span>Series regular test — cable drama</span></li><li><b>2025</b><span>Lead — web series, two seasons</span></li><li><b>2024</b><span>Commercial — bank, national Canadian broadcast</span></li><li><b>2023</b><span>Stage — new writing festival</span></li></ul>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:vanguardplacementgroup@gmail.com?subject=Talent%20enquiry%20%E2%80%94%20Noor%20H.">Request Noor for a role</a>
+        <a class="btn btn-ghost" href="#/submit">I want a profile like this</a>
+      </div>
+      <p style="font-size:13px;color:var(--muted-2);margin-top:14px">Representation enquiries go straight to the Review Department. Average reply: 48 hours.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">More talent</p><h2 class="sec-title">Others on the <em>books</em></h2></div>
+    <div class="pill-row"><a class="pill" href="#/talent-liam-k">Liam K. · London</a><a class="pill" href="#/talent-amara-o">Amara O. · Manchester</a><a class="pill" href="#/talent-diego-s">Diego S. · Madrid</a><a class="pill" href="#/talent-jonah-r">Jonah R. · New York</a><a class="pill" href="#/talent-priya-n">Priya N. · Dublin</a></div>
+    <div style="text-align:center;margin-top:34px" class="reveal"><a href="#/talent" class="btn btn-ghost">See the full roster →</a></div>
+  </div>
+</section>
+
+<section style="padding:0 0 100px">
+  <div class="container"><div class="cta-card reveal">
+    <h2>Your profile could be the <em>next one</em> on this list.</h2>
+    <p>Only <b><span data-slots>3</span> shortlist slots</b> left this cycle. Send your reel and the desk starts reviewing within 48 hours.</p>
+    <div class="cta-row-w"><a href="#/submit" class="btn btn-white">Send Your Reel</a>
+      <button class="btn" style="border:2px solid rgba(255,255,255,.45);color:#fff" data-chat-open>Ask the desk a question</button></div>
+    <p class="cta-mail">Or email <b>vanguardplacementgroup@gmail.com</b></p>
+  </div></div>
+</section>
+</div>
+<div class="route" id="route-talent-jonah-r" data-title="Jonah R. — Stage & screen, New York | Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → <a href="#/talent">Our Talent</a> → Jonah R.</p>
+  </div>
+</header>
+
+<section style="padding:60px 0 90px">
+  <div class="container pf-grid">
+    <div class="reveal">
+      <div class="pf-media">
+        <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=70" alt="Jonah R. headshot" onerror="this.src='https://picsum.photos/seed/vpg-jonah-r/800/1000'">
+        <button class="pf-play" data-reel data-img="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=70" data-reel-title="Jonah R. — showreel" data-chip="Stage & screen" data-desc="2 min 20 sec · New York. Series regular test, cable drama.">▶ Watch the reel</button>
+      </div>
+      <div class="pf-gallery"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=70" alt="Jonah R. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-jonah-r-0/400/400'"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=70" alt="Jonah R. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-jonah-r-1/400/400'"><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=70" alt="Jonah R. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-jonah-r-2/400/400'"></div>
+      <div class="pf-stats">
+        <div><b>5</b><span>Desks submitted</span></div>
+        <div><b>2</b><span>Callbacks</span></div>
+        <div><b>27h</b><span>First reply</span></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="--d:.1s">
+      <div class="pf-head">
+        <span class="tc-tag " style="position:static;display:inline-block;margin-bottom:16px">In negotiation</span>
+        <h1>Jonah R.</h1>
+        <p class="pf-sub">Stage & screen · New York</p>
+      </div>
+      <p style="font-size:1.15rem;font-weight:500;color:var(--muted);margin-bottom:26px">Series regular test, cable drama. Shortlisted by the Vanguard review desk and currently working with partner agencies in New York and beyond.</p>
+
+      <div class="desk-note">“Twelve years of stage work and a reel cut like a theatre programme. We re-ordered it, led with the interrogation scene, and the first desk tested him.”<span>— Vanguard Review Department</span></div>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:12px">Profile</h2>
+      <table class="pf-table">
+        <tr><td>Playing age</td><td>35–45</td></tr>
+        <tr><td>Height</td><td>6'2"</td></tr>
+        <tr><td>Accents</td><td>New York, General American, Southern</td></tr>
+        <tr><td>Languages</td><td>English</td></tr>
+        <tr><td>Union status</td><td>SAG-AFTRA</td></tr>
+        <tr><td>Representation</td><td>Test option — terms in negotiation</td></tr>
+        <tr><td>Reel length</td><td>2 min 20 sec</td></tr>
+        <tr><td>Training</td><td>Twelve years stage, Meisner-trained</td></tr>
+      </table>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:14px">Selected credits</h2>
+      <ul class="pf-credits"><li><b>2026</b><span>Series regular test — cable drama (in negotiation)</span></li><li><b>2025</b><span>Co-star — network procedural, two episodes</span></li><li><b>2024</b><span>Lead — off-Broadway revival</span></li><li><b>2024</b><span>Supporting — independent thriller</span></li><li><b>2022</b><span>Narration — documentary series</span></li></ul>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:vanguardplacementgroup@gmail.com?subject=Talent%20enquiry%20%E2%80%94%20Jonah%20R.">Request Jonah for a role</a>
+        <a class="btn btn-ghost" href="#/submit">I want a profile like this</a>
+      </div>
+      <p style="font-size:13px;color:var(--muted-2);margin-top:14px">Representation enquiries go straight to the Review Department. Average reply: 48 hours.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">More talent</p><h2 class="sec-title">Others on the <em>books</em></h2></div>
+    <div class="pill-row"><a class="pill" href="#/talent-liam-k">Liam K. · London</a><a class="pill" href="#/talent-amara-o">Amara O. · Manchester</a><a class="pill" href="#/talent-diego-s">Diego S. · Madrid</a><a class="pill" href="#/talent-noor-h">Noor H. · Toronto</a><a class="pill" href="#/talent-priya-n">Priya N. · Dublin</a></div>
+    <div style="text-align:center;margin-top:34px" class="reveal"><a href="#/talent" class="btn btn-ghost">See the full roster →</a></div>
+  </div>
+</section>
+
+<section style="padding:0 0 100px">
+  <div class="container"><div class="cta-card reveal">
+    <h2>Your profile could be the <em>next one</em> on this list.</h2>
+    <p>Only <b><span data-slots>3</span> shortlist slots</b> left this cycle. Send your reel and the desk starts reviewing within 48 hours.</p>
+    <div class="cta-row-w"><a href="#/submit" class="btn btn-white">Send Your Reel</a>
+      <button class="btn" style="border:2px solid rgba(255,255,255,.45);color:#fff" data-chat-open>Ask the desk a question</button></div>
+    <p class="cta-mail">Or email <b>vanguardplacementgroup@gmail.com</b></p>
+  </div></div>
+</section>
+</div>
+<div class="route" id="route-talent-priya-n" data-title="Priya N. — Voice & presenting, Dublin | Vanguard Placement Group">
+
+<header class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="#/home">Home</a> → <a href="#/talent">Our Talent</a> → Priya N.</p>
+  </div>
+</header>
+
+<section style="padding:60px 0 90px">
+  <div class="container pf-grid">
+    <div class="reveal">
+      <div class="pf-media">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=70" alt="Priya N. headshot" onerror="this.src='https://picsum.photos/seed/vpg-priya-n/800/1000'">
+        <button class="pf-play" data-reel data-img="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=70" data-reel-title="Priya N. — showreel" data-chip="Voice & presenting" data-desc="60 sec voice sample + 90 sec presenting · Dublin. Signed — commercial division.">▶ Watch the reel</button>
+      </div>
+      <div class="pf-gallery"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=70" alt="Priya N. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-priya-n-0/400/400'"><img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=70" alt="Priya N. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-priya-n-1/400/400'"><img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=900&q=70" alt="Priya N. still" loading="lazy" onerror="this.src='https://picsum.photos/seed/vpg-priya-n-2/400/400'"></div>
+      <div class="pf-stats">
+        <div><b>2</b><span>Desks submitted</span></div>
+        <div><b>2</b><span>Callbacks</span></div>
+        <div><b>11h</b><span>First reply</span></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="--d:.1s">
+      <div class="pf-head">
+        <span class="tc-tag signed" style="position:static;display:inline-block;margin-bottom:16px">Signed</span>
+        <h1>Priya N.</h1>
+        <p class="pf-sub">Voice & presenting · Dublin</p>
+      </div>
+      <p style="font-size:1.15rem;font-weight:500;color:var(--muted);margin-bottom:26px">Signed — commercial division. Shortlisted by the Vanguard review desk and currently working with partner agencies in Dublin and beyond.</p>
+
+      <div class="desk-note">“A sixty-second sample with three clean reads beat every ten-minute demo in the pile that month. Range notes written out, no guessing required.”<span>— Vanguard Review Department</span></div>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:12px">Profile</h2>
+      <table class="pf-table">
+        <tr><td>Playing age</td><td>26–34</td></tr>
+        <tr><td>Height</td><td>5'7"</td></tr>
+        <tr><td>Accents</td><td>Irish, RP, Neutral Indian English</td></tr>
+        <tr><td>Languages</td><td>English, Hindi</td></tr>
+        <tr><td>Union status</td><td>Non-union</td></tr>
+        <tr><td>Representation</td><td>Signed — commercial division, 2026</td></tr>
+        <tr><td>Reel length</td><td>60 sec voice sample + 90 sec presenting</td></tr>
+        <tr><td>Training</td><td>Broadcast journalism background, VO coaching</td></tr>
+      </table>
+
+      <h2 class="sec-title" style="font-size:1.6rem;margin-bottom:14px">Selected credits</h2>
+      <ul class="pf-credits"><li><b>2026</b><span>Signed — commercial and voice division</span></li><li><b>2025</b><span>Presenter — branded content series, six episodes</span></li><li><b>2025</b><span>Voice — national radio campaign</span></li><li><b>2024</b><span>Narration — corporate documentary</span></li><li><b>2024</b><span>Host — live event, 900 attendees</span></li></ul>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:vanguardplacementgroup@gmail.com?subject=Talent%20enquiry%20%E2%80%94%20Priya%20N.">Request Priya for a role</a>
+        <a class="btn btn-ghost" href="#/submit">I want a profile like this</a>
+      </div>
+      <p style="font-size:13px;color:var(--muted-2);margin-top:14px">Representation enquiries go straight to the Review Department. Average reply: 48 hours.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="sec-head center reveal"><p class="sec-label">More talent</p><h2 class="sec-title">Others on the <em>books</em></h2></div>
+    <div class="pill-row"><a class="pill" href="#/talent-liam-k">Liam K. · London</a><a class="pill" href="#/talent-amara-o">Amara O. · Manchester</a><a class="pill" href="#/talent-diego-s">Diego S. · Madrid</a><a class="pill" href="#/talent-noor-h">Noor H. · Toronto</a><a class="pill" href="#/talent-jonah-r">Jonah R. · New York</a></div>
+    <div style="text-align:center;margin-top:34px" class="reveal"><a href="#/talent" class="btn btn-ghost">See the full roster →</a></div>
+  </div>
+</section>
+
+<section style="padding:0 0 100px">
+  <div class="container"><div class="cta-card reveal">
+    <h2>Your profile could be the <em>next one</em> on this list.</h2>
+    <p>Only <b><span data-slots>3</span> shortlist slots</b> left this cycle. Send your reel and the desk starts reviewing within 48 hours.</p>
+    <div class="cta-row-w"><a href="#/submit" class="btn btn-white">Send Your Reel</a>
+      <button class="btn" style="border:2px solid rgba(255,255,255,.45);color:#fff" data-chat-open>Ask the desk a question</button></div>
+    <p class="cta-mail">Or email <b>vanguardplacementgroup@gmail.com</b></p>
+  </div></div>
+</section>
+</div>
+
+<footer class="footer" id="send">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#/home" class="logo"><svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="57" fill="none" stroke="var(--logo-ink)" stroke-width="2.6" opacity=".9"/>
+        <text x="34" y="74" font-family="Playfair Display, Georgia, serif" font-size="56" font-weight="800" fill="var(--logo-blue)" text-anchor="middle">V</text>
+        <g transform="translate(78,48)">
+          <circle r="16" fill="var(--logo-blue)"/><circle r="4.4" fill="var(--bg-2)"/>
+          <circle cx="0" cy="-9.5" r="3.3" fill="var(--bg-2)"/><circle cx="0" cy="9.5" r="3.3" fill="var(--bg-2)"/>
+          <circle cx="-9.5" cy="0" r="3.3" fill="var(--bg-2)"/><circle cx="9.5" cy="0" r="3.3" fill="var(--bg-2)"/>
+        </g>
+        <text x="60" y="95" font-family="Inter, sans-serif" font-size="10.5" font-weight="900" letter-spacing="1.4" fill="var(--logo-ink)" text-anchor="middle">VANGUARD</text>
+        <text x="60" y="106" font-family="Inter, sans-serif" font-size="7.6" font-weight="700" letter-spacing="1.1" fill="var(--logo-ink)" opacity=".75" text-anchor="middle">PLACEMENT GROUP</text>
+      </svg>
+          <span class="logo-txt"><b>Vanguard Placement Group</b><small>Talent Acquisitions</small></span></a>
+        <p>Helping independent talent secure agency representation. Reels and resumes reviewed by a real acquisitions desk, then shortlisted to the people who cast and sign.</p>
+        <div class="f-contact">
+          <a href="mailto:vanguardplacementgroup@gmail.com">vanguardplacementgroup@gmail.com</a>
+          <span>Review Department · Talent Acquisitions</span>
+          <span>Response time: 48 hours average</span>
+          <span style="display:flex;gap:14px;margin-top:6px">
+            <a href="#/talent">Our Talent</a><a href="#/shortlisted">Shortlisted</a>
+            <a href="#/how-it-works">How It Works</a><a href="#/faq">FAQ</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h4>Send your reel</h4>
+        <p>One minute, five fields. A link is all we need.</p>
+        <form class="simple-form" novalidate>
+          <div class="f-row">
+            <label class="field"><span>Your name</span><input type="text" name="name" placeholder="Alex Moore" required></label>
+            <label class="field"><span>Email</span><input type="email" name="email" placeholder="you@email.com" required></label>
+          </div>
+          <div class="f-row">
+            <label class="field"><span>Discipline</span><select name="role">
+              <option>Screen actor</option><option>Commercial talent</option>
+              <option>Stage &amp; theatre</option><option>Voice &amp; presenting</option><option>Other</option></select></label>
+            <label class="field"><span>City</span><input type="text" name="city" placeholder="London"></label>
+          </div>
+          <label class="field"><span>Reel or resume link</span><input type="url" name="link" placeholder="https://vimeo.com/your-reel" required></label>
+          <label class="field"><span>Anything we should know</span><textarea name="msg" placeholder="Recent credits, union status, what you're aiming for next…"></textarea></label>
+          <button type="submit" class="btn btn-primary" style="width:100%">Send Your Reel</button>
+          <p class="form-note">Opens your email app addressed to vanguardplacementgroup@gmail.com.</p>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Vanguard Placement Group. All rights reserved.</span>
+      <span>Helping independent talent secure agency representation.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- floating UI -->
+<div class="sticky-cta">
+  <a href="#/submit" class="btn btn-primary">Send Your Reel</a>
+  <button class="btn btn-ghost" data-chat-open>Ask the desk</button>
+</div>
+<div class="toast-wrap" id="toastWrap"></div>
+<a class="mail-fab" href="mailto:vanguardplacementgroup@gmail.com" aria-label="Email Vanguard Placement Group">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 6 9 7 9-7"/></svg></a>
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<button class="chat-fab" id="chatFab" aria-label="Open the review desk assistant">
+  <span class="pulse-ring"></span><span class="chat-badge" id="chatBadge">1</span>
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4a2 2 0 00-2 2v18l4-4h14a2 2 0 002-2V4a2 2 0 00-2-2z"/></svg>
+</button>
+<div class="chat-panel" id="chatPanel">
+  <div class="chat-head">
+    <span class="avatar">VPG</span>
+    <div><b>Vanguard Review Desk</b><span>Instant answers · real people behind them</span></div>
+    <button class="chat-close" id="chatClose" aria-label="Close chat">×</button>
+  </div>
+  <div class="chat-body" id="chatBody"></div>
+  <div class="chat-quick">
+    <button type="button" data-chat-quick="how does the shortlisting work">🎬 How it works</button>
+    <button type="button" data-chat-quick="how much does it cost">💷 Cost?</button>
+    <button type="button" data-chat-quick="how fast do you respond">⚡ How fast?</button>
+    <button type="button" data-chat-quick="what should i send">📎 What to send</button>
+    <button type="button" data-chat-quick="submit">🚀 Submit my reel</button>
+  </div>
+  <form class="chat-input" id="chatForm" autocomplete="off">
+    <input type="text" id="chatText" placeholder="Ask the desk anything…" aria-label="Type your question">
+    <button type="submit" aria-label="Send"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2z"/></svg></button>
+  </form>
+</div>
+
+<div class="exit-pop" id="exitPop">
+  <div class="ex-back"></div>
+  <div class="ex-card">
+    <button class="ex-close" aria-label="Close">×</button>
+    <div class="gift">🎬</div>
+    <h3>Before you go — the <em>Reel Teardown Checklist</em></h3>
+    <p>The 12 things our desk checks before shortlisting anyone. The same list we use on every submission. Free, no strings.</p>
+    <button class="btn btn-primary" id="exitGet" style="width:100%">Send me the checklist</button>
+    <p class="ex-alt">Or email <a href="mailto:vanguardplacementgroup@gmail.com">vanguardplacementgroup@gmail.com</a></p>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <div class="lb-backdrop" id="lbBackdrop"></div>
+  <div class="lb-card">
+    <button class="lb-close" id="lbClose" aria-label="Close">×</button>
+    <div class="lb-media"><img id="lbImg" src="" alt="">
+      <div class="lb-badge"><div><b>Reel available on request</b><span>Full reels are released to verified desks and by email — one click below.</span></div></div>
+    </div>
+    <div class="lb-body">
+      <span class="sec-label" id="lbChip">Reel</span>
+      <h3 id="lbTitle">Showreel</h3>
+      <p id="lbDesc"></p>
+      <a class="btn btn-primary" id="lbLink" href="mailto:vanguardplacementgroup@gmail.com">📨 Request the full reel</a>
+    </div>
+  </div>
+</div>
+
+
+<script>
+/* ============================================================
+   VANGUARD PLACEMENT GROUP — shared site script
+   Config at the top: flip any of these off in one line.
+   ============================================================ */
+const VPG = {
+  EMAIL: 'vanguardplacementgroup@gmail.com',
+  SLOTS_LEFT: 3,              // shortlist slots shown in the urgency bar / badges
+  SHOW_TOASTS: true,          // simulated "just shortlisted" activity toasts — set false to remove
+  SHOW_URGENCY: true,         // sticky countdown bar at the top
+  SHOW_EXIT_POP: true,        // exit-intent checklist popup
+  DEADLINE_DAY: 5             // 5 = Friday — countdown targets this weekday, 23:59
+};
+
+/* ---------- helpers ---------- */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const mailto = (subject, body) =>
+  `mailto:${VPG.EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+/* ---------- slot counters everywhere ---------- */
+$$('[data-slots]').forEach(el => el.textContent = VPG.SLOTS_LEFT);
+
+/* ---------- urgency bar + countdown ---------- */
+(function urgency() {
+  const bar = $('#urgency');
+  if (bar && (!VPG.SHOW_URGENCY || sessionStorage.getItem('vpg-urgency') === 'off')) {
+    bar.classList.add('hide'); $('#nav')?.classList.add('no-urgency');
+  }
+  const clocks = [$('#cdClock'), $('#cdClock2')].filter(Boolean);
+  if (!clocks.length) return;
+  const target = () => {
+    const d = new Date();
+    let diff = (VPG.DEADLINE_DAY - d.getDay() + 7) % 7;
+    const t = new Date(d); t.setDate(d.getDate() + diff); t.setHours(23, 59, 0, 0);
+    if (t <= d) t.setDate(t.getDate() + 7);
+    return t;
+  };
+  let end = target();
+  setInterval(() => {
+    let s = Math.max(0, Math.floor((end - new Date()) / 1000));
+    if (s === 0) end = target();
+    const dd = Math.floor(s / 86400), hh = Math.floor(s % 86400 / 3600), mm = Math.floor(s % 3600 / 60), ss = s % 60;
+    const txt = `${dd}d ${String(hh).padStart(2,'0')}h ${String(mm).padStart(2,'0')}m ${String(ss).padStart(2,'0')}s`;
+    clocks.forEach(c => c.textContent = txt);
+  }, 1000);
+  $('#urgencyClose')?.addEventListener('click', () => {
+    bar.classList.add('hide'); $('#nav')?.classList.add('no-urgency');
+    sessionStorage.setItem('vpg-urgency', 'off');
+  });
+})();
+
+/* ---------- nav ---------- */
+const nav = $('#nav'), toTop = $('#toTop');
+addEventListener('scroll', () => {
+  nav?.classList.toggle('scrolled', scrollY > 30);
+  toTop?.classList.toggle('show', scrollY > 600);
+}, { passive: true });
+toTop?.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
+
+const menuBtn = $('#menuBtn'), mobileMenu = $('#mobileMenu');
+menuBtn?.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+$$('#mobileMenu a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+$('#themeBtn')?.addEventListener('click', () => {
+  const el = document.documentElement;
+  el.dataset.theme = el.dataset.theme === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('vpg-theme', el.dataset.theme);
+});
+if (localStorage.getItem('vpg-theme')) document.documentElement.dataset.theme = localStorage.getItem('vpg-theme');
+
+$$('#year').forEach(e => e.textContent = new Date().getFullYear());
+
+/* ---------- hero typed rotator ---------- */
+(function typed() {
+  const el = $('#heroRot'); if (!el) return;
+  const out = $('#rotTyped'), phrases = el.dataset.phrases.split('|');
+  let p = 0, i = 0, del = false;
+  (function tick() {
+    const t = phrases[p];
+    out.textContent = del ? t.slice(0, --i) : t.slice(0, ++i);
+    let wait = del ? 26 : 45;
+    if (!del && i === t.length) { wait = 1900; del = true; }
+    else if (del && i === 0) { del = false; p = (p + 1) % phrases.length; wait = 300; }
+    setTimeout(tick, wait);
+  })();
+})();
+
+/* ---------- reveal + counters ---------- */
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+}), { threshold: .12, rootMargin: '0px 0px -60px' });
+$$('.reveal').forEach(el => io.observe(el));
+
+const cio = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  const el = e.target, target = parseFloat(el.dataset.count), dec = +(el.dataset.decimals || 0), comma = el.dataset.comma;
+  let start = null;
+  const step = ts => {
+    if (!start) start = ts;
+    const k = Math.min((ts - start) / 1400, 1), v = target * (1 - Math.pow(1 - k, 3));
+    el.textContent = comma ? Math.round(v).toLocaleString() : v.toFixed(dec);
+    if (k < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step); cio.unobserve(el);
+}), { threshold: .5 });
+$$('.count').forEach(el => cio.observe(el));
+
+/* ---------- marquee duplication ---------- */
+const mt = $('#marqueeTrack'); if (mt) mt.innerHTML += mt.innerHTML;
+
+/* ---------- FAQ accordion ---------- */
+$$('.faq-item').forEach(item => {
+  const q = item.querySelector('.faq-q'), a = item.querySelector('.faq-a');
+  q.addEventListener('click', () => {
+    const open = item.classList.contains('open');
+    $$('.faq-item.open').forEach(o => { o.classList.remove('open'); o.querySelector('.faq-a').style.maxHeight = null; });
+    if (!open) { item.classList.add('open'); a.style.maxHeight = a.scrollHeight + 'px'; }
+  });
+});
+
+/* ---------- filters ---------- */
+$$('[data-filter-group]').forEach(group => {
+  const targets = $$(`[data-filter-item="${group.dataset.filterGroup}"]`);
+  group.addEventListener('click', e => {
+    const b = e.target.closest('button[data-filter]'); if (!b) return;
+    $$('button', group).forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    const f = b.dataset.filter;
+    targets.forEach(t => t.classList.toggle('is-hidden', f !== 'all' && !t.dataset.cat.split(' ').includes(f)));
+  });
+});
+
+/* ---------- show more grids ---------- */
+$$('[data-more]').forEach(btn => {
+  btn.addEventListener('click', e => {
+    e.preventDefault();
+    const extras = $$('[data-extra]');
+    const showing = extras[0]?.classList.contains('show');
+    extras.forEach(x => { x.classList.toggle('show', !showing); x.classList.add('in'); });
+    btn.textContent = showing ? btn.dataset.more : 'Show fewer ←';
+  });
+});
+
+/* ---------- locked teaser ---------- */
+$$('[data-unlock]').forEach(b => b.addEventListener('click', () => {
+  const box = b.closest('.locked');
+  box.querySelector('.lock-ui').remove();
+  box.querySelector('.blurred').style.filter = 'none';
+  box.style.borderStyle = 'solid';
+}));
+
+/* ---------- reel lightbox ---------- */
+const lb = $('#lightbox');
+function openLB(d) {
+  if (!lb) return;
+  $('#lbImg').src = d.img || '';
+  $('#lbTitle').textContent = d.title || 'Showreel';
+  $('#lbDesc').textContent = d.desc || '';
+  $('#lbChip').textContent = d.chip || 'Reel';
+  $('#lbLink').href = mailto(`Reel request — ${d.title || ''}`, `Hi Vanguard,\n\nPlease send me the full reel for ${d.title || ''}.\n\nThanks,`);
+  lb.classList.add('on'); document.body.style.overflow = 'hidden';
+}
+function closeLB() { lb?.classList.remove('on'); document.body.style.overflow = ''; }
+$$('[data-reel]').forEach(b => b.addEventListener('click', () => openLB({
+  img: b.dataset.img, title: b.dataset.reelTitle, chip: b.dataset.chip, desc: b.dataset.desc
+})));
+$('#lbClose')?.addEventListener('click', closeLB);
+$('#lbBackdrop')?.addEventListener('click', closeLB);
+addEventListener('keydown', e => { if (e.key === 'Escape') { closeLB(); $('#exitPop')?.classList.remove('on'); } });
+
+/* ---------- activity toasts ---------- */
+(function toasts() {
+  if (!VPG.SHOW_TOASTS) return;
+  const wrap = $('#toastWrap'); if (!wrap) return;
+  const items = [
+    ['Reel approved — London', 'Screen actor shortlisted to 2 desks'],
+    ['New submission — Dublin', 'Commercial talent, review started'],
+    ['Callback logged — Toronto', 'Desk responded in under 24h'],
+    ['Shortlist sent — Manchester', 'Material now with a casting desk'],
+    ['Signed — Madrid', 'Three-year representation agreed']
+  ];
+  let n = 0;
+  const pop = () => {
+    const [a, b] = items[n++ % items.length];
+    const el = document.createElement('div');
+    el.className = 'toast';
+    el.innerHTML = `<span class="tdot"></span><span><b>${a}</b><span>${b}</span></span>`;
+    wrap.appendChild(el);
+    setTimeout(() => { el.classList.add('out'); setTimeout(() => el.remove(), 400); }, 6000);
+  };
+  setTimeout(pop, 9000);
+  setInterval(pop, 34000);
+})();
+
+/* ---------- exit-intent popup ---------- */
+(function exitPop() {
+  if (!VPG.SHOW_EXIT_POP) return;
+  const pop = $('#exitPop'); if (!pop || sessionStorage.getItem('vpg-exit')) return;
+  const show = () => {
+    if (sessionStorage.getItem('vpg-exit')) return;
+    pop.classList.add('on'); sessionStorage.setItem('vpg-exit', '1');
+  };
+  addEventListener('mouseout', e => { if (!e.relatedTarget && e.clientY < 10) show(); });
+  setTimeout(show, 75000);
+  $('.ex-close', pop)?.addEventListener('click', () => pop.classList.remove('on'));
+  $('.ex-back', pop)?.addEventListener('click', () => pop.classList.remove('on'));
+  $('#exitGet')?.addEventListener('click', () => {
+    location.href = mailto('Send me the Reel Teardown Checklist',
+      'Hi Vanguard,\n\nPlease send me the free Reel Teardown Checklist.\n\nName:\nDiscipline:\nCity:\n\nThanks,');
+  });
+})();
+
+/* ---------- multi-step submit form ---------- */
+(function msf() {
+  const form = $('#msForm'); if (!form) return;
+  const steps = $$('.msf-step', form), bars = $$('.msf-bar i', form);
+  let s = 0;
+  const paint = () => {
+    steps.forEach((el, i) => el.classList.toggle('on', i === s));
+    bars.forEach((b, i) => b.classList.toggle('on', i <= s));
+  };
+  $$('[data-next]', form).forEach(b => b.addEventListener('click', () => {
+    const cur = steps[s], need = $$('[required]', cur).filter(i => !i.value.trim());
+    if (need.length) { need[0].focus(); need[0].style.borderColor = '#e8112d'; return; }
+    s = Math.min(s + 1, steps.length - 1); paint();
+  }));
+  $$('[data-prev]', form).forEach(b => b.addEventListener('click', () => { s = Math.max(s - 1, 0); paint(); }));
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const g = n => (form[n]?.value || '').trim();
+    const body = `Name: ${g('name')}\nEmail: ${g('email')}\nPhone: ${g('phone')}\nDiscipline: ${g('role')}\nCity: ${g('city')}\n` +
+      `Union status: ${g('union')}\nRepresentation: ${g('rep')}\nReel / resume: ${g('link')}\n\nNotes:\n${g('msg')}`;
+    location.href = mailto(`Reel submission — ${g('name')}`, body);
+    $('#msDone').textContent = 'Opening your email app — hit send and the review desk has it.';
+  });
+  paint();
+})();
+
+/* ---------- simple footer form ---------- */
+$$('.simple-form').forEach(form => form.addEventListener('submit', e => {
+  e.preventDefault();
+  const g = n => (form[n]?.value || '').trim();
+  if (!g('name') || !g('email') || !g('link')) {
+    form.querySelector('.form-note').textContent = 'Name, email and a reel link, please.';
+    return;
+  }
+  location.href = mailto(`Reel submission — ${g('name')}`,
+    `Name: ${g('name')}\nEmail: ${g('email')}\nDiscipline: ${g('role')}\nCity: ${g('city')}\nReel / resume: ${g('link')}\n\n${g('msg')}`);
+  form.querySelector('.form-note').textContent = 'Opening your email app — hit send and we reply within 48 hours.';
+}));
+
+/* ============================================================
+   CHATBOT — free text + quick chips + guided submission flow
+   ============================================================ */
+(function chatbot() {
+  const fab = $('#chatFab'), panel = $('#chatPanel'), body = $('#chatBody'),
+        form = $('#chatForm'), input = $('#chatText');
+  if (!fab || !panel) return;
+
+  const E = VPG.EMAIL, S = VPG.SLOTS_LEFT;
+  let started = false, flow = null, data = {};
+
+  const say = (html, who = 'bot') => {
+    const d = document.createElement('div');
+    d.className = 'msg ' + who; d.innerHTML = html;
+    body.appendChild(d); body.scrollTop = body.scrollHeight;
+  };
+  const typing = () => {
+    const d = document.createElement('div');
+    d.className = 'msg bot typing'; d.innerHTML = '<i></i><i></i><i></i>';
+    body.appendChild(d); body.scrollTop = body.scrollHeight; return d;
+  };
+  const botSay = (html, delay = 600) => {
+    const t = typing();
+    setTimeout(() => { t.remove(); say(html); }, delay);
+  };
+
+  /* ---- knowledge base: [keywords, answer] ---- */
+  const INTENTS = [
+    [['hi','hello','hey','good morning','good evening','yo','hiya'],
+     `Hi — you're through to the Vanguard review desk. 👋\n\nAsk me anything about getting shortlisted, or type <b>submit</b> and I'll take your details right here.`],
+
+    [['how does it work','how it works','process','what happens','shortlist work','shortlisting'],
+     `Four steps, no mystery:\n\n<b>1.</b> You send a reel or resume link.\n<b>2.</b> Someone here watches all of it — not the first ten seconds.\n<b>3.</b> If it's ready, we put it on the desk of an agent or casting director looking for exactly what you do.\n<b>4.</b> You hear back either way, usually inside 48 hours.\n\nWant the long version? <a href="#/how-it-works">See How It Works →</a>`],
+
+    [['cost','price','pricing','how much','fee','charge','expensive','afford','payment','pay'],
+     `There's no fixed price list — it depends on how much material you have, how many desks we approach and how fast you need it moving.\n\nTell us what you're after and you'll have a number within 24 hours. The number we quote is the number you pay — no percentage surprises later.`],
+
+    [['how fast','how long','timing','turnaround','response time','when will i hear','wait'],
+     `48 hours on average for a review decision. Busy weeks it stretches to three days and we'll say so rather than leave you refreshing your inbox.\n\nApproved shortlists go out to desks the same week.`],
+
+    [['what do i send','what should i send','what to send','requirements','material','need from me','prepare'],
+     `A link is all we need — Vimeo, YouTube (unlisted is fine), Drive, Dropbox.\n\nIdeally:\n• A reel, self-tape or scene, 1–3 minutes\n• Your resume or credit list\n• A current headshot\n• One line on what you're aiming for next\n\nNo reel yet? Send a self-tape. We've shortlisted people off a single scene.`],
+
+    [['union','sag','equity','aftra','non-union','nonunion','card'],
+     `Both. Plenty of the talent we shortlist is non-union and still gets signed.\n\nIf a role or a desk is union-only, we tell you before we submit — not after.`],
+
+    [['chance','odds','likely','will i get','good enough','am i ready','reject'],
+     `Honest answer: it depends on the material and the season. About a third of submissions get shortlisted straight away, some get notes and come back stronger, some aren't ready yet.\n\nWhat we won't do is take you on and send nothing. If we can't place you, you'll hear that in plain words.`],
+
+    [['who reviews','who watches','who are you','team','review department','acquisitions'],
+     `The Review Department — the talent acquisitions desk here at Vanguard. Real people who've sat on both sides of casting, not a filter and a form.\n\n<a href="#/about">More about the desk →</a>`],
+
+    [['agency','agent','casting director','desk','representation','sign','signed'],
+     `We work with agency and casting desks across the UK, Ireland, North America and Europe. When your material fits what one of them is building, it goes straight to a named person.\n\nIf you're an agency looking for talent, start here: <a href="#/agencies">For Agencies & Casting →</a>`],
+
+    [['talent','roster','who do you represent','actors','your talent','books'],
+     `Screen actors, commercial talent, stage and theatre, voice and presenting. Every one of them came to us independent.\n\n<a href="#/talent">See the roster →</a> or <a href="#/shortlisted">see recent shortlists →</a>`],
+
+    [['booked','in negotiation','status','tags','what does booked mean'],
+     `On the shortlist pages:\n\n<b>Booked</b> — the role is confirmed.\n<b>In negotiation</b> — the desk came back and terms are being agreed.\n<b>Signed</b> — representation agreement in place.`],
+
+    [['location','where','country','city','uk','us','remote','international','territory'],
+     `We're remote-first and work across territories — London, Manchester, Dublin, New York, Toronto, Madrid and more.\n\nTell us where you're based and where you'd work, and we match desks in those markets.`],
+
+    [['nda','confidential','private','safe','data','share my'],
+     `Your material goes to desks only — never posted publicly, never sold on, never used as marketing without you saying yes in writing. Ask for an NDA and you'll have one the same day.`],
+
+    [['exclusive','contract','lock','commitment','tie'],
+     `No exclusivity trap. Shortlisting through us doesn't stop you submitting yourself or signing elsewhere. If an agency signs you, the relationship is yours.`],
+
+    [['beginner','start','no experience','just starting','student','first reel','young','age'],
+     `Beginners are welcome — we've shortlisted people whose only footage was a student film and two self-tapes.\n\nWhat matters is whether the material shows something castable. If it doesn't yet, we'll tell you what to shoot next.`],
+
+    [['headshot','photo','resume','cv','profile'],
+     `A current headshot and a one-page credit list is plenty. No professional shoot needed to be reviewed — good natural light and an honest face beats an outdated glamour shot.`],
+
+    [['length','how long should','minutes','reel length','duration'],
+     `One to three minutes. Lead with your strongest scene — a desk decides in the first twenty seconds whether to keep watching, so don't bury it behind a montage.`],
+
+    [['self tape','self-tape','tape tips','audition tips','tips','improve'],
+     `Quick version: eye-line just off lens, clean background, your face lit from the front, sound recorded close, and no reading the whole script — pick the moment that turns.\n\nAsk me for the <b>checklist</b> and I'll send you our full teardown list.`],
+
+    [['checklist','free','guide','teardown','download','magnet'],
+     `The Reel Teardown Checklist — the exact 12 things our desk looks for before shortlisting anyone. Free.\n\n<a href="${mailto('Send me the Reel Teardown Checklist','Hi Vanguard,\n\nPlease send me the free Reel Teardown Checklist.\n\nName:\nDiscipline:\nCity:\n\nThanks,')}">Email it to me →</a>`],
+
+    [['feedback','notes','why rejected','critique','review my'],
+     `Every submission gets a reason, not a silence. If we pass, you get the notes — what's missing, what to shoot, whether it's a timing issue rather than a talent one.`],
+
+    [['call','zoom','meeting','speak','phone','talk to someone'],
+     `Happy to. Email <b>${E}</b> with two or three times that suit you and the desk will confirm one.`],
+
+    [['contact','email','reach','get in touch','address'],
+     `Email: <b>${E}</b>\nResponse time: 48 hours average.\n\n<a href="#/contact">Contact page →</a>`],
+
+    [['slot','slots','spaces','availability','full','closed','deadline'],
+     `There are <b>${S} shortlist slots</b> left in this review cycle — it closes Friday at midnight, then the desk moves to the next intake.\n\nType <b>submit</b> and I'll take your details now.`],
+
+    [['testimonial','review','success','worked','results','proof'],
+     `Alex M. got a lead off a quiet scene nobody else flagged. Zara P. was on three desks in a week. Tyler H. signed after his own agent passed.\n\n<a href="#/success-stories">Read the full stories →</a>`],
+
+    [['thanks','thank you','cheers','appreciate','great','nice'],
+     `Any time. If you want the desk to actually see your material, type <b>submit</b> — takes about 40 seconds.`],
+
+    [['bye','goodbye','later','see you'],
+     `Good luck out there. We're at <b>${E}</b> whenever your reel is ready. 🎬`]
+  ];
+
+  const FLOW = [
+    { key: 'name',  q: `Let's do it. First — <b>what's your name?</b>` },
+    { key: 'role',  q: `Nice to meet you, {name}. <b>What do you do?</b> (screen actor, commercial, stage, voice…)` },
+    { key: 'city',  q: `<b>Which city are you based in?</b>` },
+    { key: 'link',  q: `Last big one — <b>paste the link to your reel, self-tape or resume.</b> Vimeo, YouTube, Drive, anything.` },
+    { key: 'email', q: `And <b>your email</b>, so the desk can come back to you.` }
+  ];
+
+  function answer(raw) {
+    const q = raw.toLowerCase().trim();
+
+    if (flow !== null) { return handleFlow(raw); }
+    if (/^(submit|send my reel|send reel|apply|sign me|get shortlisted|start)/.test(q)) return startFlow();
+
+    let best = null, score = 0;
+    INTENTS.forEach(([keys, ans]) => {
+      let s = 0;
+      keys.forEach(k => { if (q.includes(k)) s = Math.max(s, k.length); });
+      if (s > score) { score = s; best = ans; }
+    });
+    if (best) return botSay(best, 650);
+
+    botSay(`Good question — and I'd rather give you a real answer than a guess.\n\nEmail the desk at <b>${E}</b> and you'll have one within 48 hours. Or type <b>submit</b> and I'll take your details now so the review starts either way.`, 700);
+  }
+
+  function startFlow() {
+    flow = 0; data = {};
+    botSay(FLOW[0].q, 500);
+  }
+
+  function handleFlow(val) {
+    data[FLOW[flow].key] = val.trim();
+    flow++;
+    if (flow < FLOW.length) {
+      return botSay(FLOW[flow].q.replace('{name}', (data.name || '').split(' ')[0]), 550);
+    }
+    const subject = `Reel submission — ${data.name}`;
+    const bodyTxt = `Name: ${data.name}\nDiscipline: ${data.role}\nCity: ${data.city}\nReel / resume: ${data.link}\nEmail: ${data.email}\n\nSent from the Vanguard site assistant.`;
+    flow = null;
+    botSay(`Got it, ${(data.name || '').split(' ')[0]} — here's what I have:\n\n<b>Name:</b> ${data.name}\n<b>Discipline:</b> ${data.role}\n<b>City:</b> ${data.city}\n<b>Link:</b> ${data.link}\n<b>Email:</b> ${data.email}\n\nOne tap to send it to the review desk:\n\n<a href="${mailto(subject, bodyTxt)}"><b>📨 Send this to the desk →</b></a>\n\nYou'll hear back within 48 hours — including if the answer is no.`, 800);
+  }
+
+  function userAsked(text) {
+    say(text.replace(/</g, '&lt;'), 'user');
+    answer(text);
+  }
+
+  function open() {
+    panel.classList.add('on');
+    $('#chatBadge')?.remove();
+    if (!started) {
+      started = true;
+      botSay(`Hi — Vanguard review desk. 👋\n\n<b>${S} shortlist slots</b> left this cycle. Ask me anything, or type <b>submit</b> and I'll take your details straight to the desk.`, 450);
+    }
+    setTimeout(() => input?.focus(), 300);
+  }
+
+  fab.addEventListener('click', () => panel.classList.contains('on') ? panel.classList.remove('on') : open());
+  $('#chatClose')?.addEventListener('click', () => panel.classList.remove('on'));
+  $$('[data-chat-quick]').forEach(b => b.addEventListener('click', () => {
+    if (!panel.classList.contains('on')) open();
+    userAsked(b.dataset.chatQuick);
+  }));
+  $$('[data-chat-open]').forEach(b => b.addEventListener('click', e => { e.preventDefault(); open(); }));
+
+  form?.addEventListener('submit', e => {
+    e.preventDefault();
+    const v = input.value.trim(); if (!v) return;
+    input.value = ''; userAsked(v);
+  });
+
+  // nudge: open the badge after 25s if untouched
+  setTimeout(() => { if (!started) $('#chatBadge')?.classList.add('flash'); }, 25000);
+})();
+
+
+/* ============================================================
+   SINGLE-FILE ROUTER — every page lives in this one document
+   ============================================================ */
+(function router(){
+  const routes = [...document.querySelectorAll('.route')];
+  const ids = routes.map(r => r.id.replace('route-',''));
+  const navLinks = [...document.querySelectorAll('.nav-links a, .mobile-menu a')];
+
+  function counters(scope){
+    scope.querySelectorAll('.count').forEach(el => {
+      if (el.dataset.done) return;
+      el.dataset.done = '1';
+      const target = parseFloat(el.dataset.count), dec = +(el.dataset.decimals||0), comma = el.dataset.comma;
+      let start = null;
+      const step = ts => {
+        if (!start) start = ts;
+        const k = Math.min((ts - start)/1400, 1), v = target * (1 - Math.pow(1-k,3));
+        el.textContent = comma ? Math.round(v).toLocaleString() : v.toFixed(dec);
+        if (k < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    });
+  }
+
+  function show(name, push){
+    if (!ids.includes(name)) name = '404';
+    routes.forEach(r => r.classList.toggle('on', r.id === 'route-' + name));
+    const cur = document.getElementById('route-' + name);
+    document.title = cur.dataset.title || 'Vanguard Placement Group';
+    // elements inside a hidden route never trip the scroll observer — reveal them now
+    setTimeout(() => { cur.querySelectorAll('.reveal').forEach(el => el.classList.add('in')); counters(cur); }, 60);
+    navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#/' + name));
+    document.querySelector('.mobile-menu')?.classList.remove('open');
+    if (push !== false) scrollTo({top:0, behavior:'instant' in window ? 'instant' : 'auto'});
+  }
+
+  addEventListener('hashchange', () => {
+    const h = location.hash.replace(/^#\/?/, '');
+    if (!h) return show('home');
+    show(h);
+  });
+
+  const first = location.hash.replace(/^#\/?/, '');
+  show(first || 'home', false);
+})();
+
+</script>
+</body>
+</html>
